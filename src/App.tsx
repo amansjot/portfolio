@@ -63,10 +63,7 @@ function App() {
 
       {/* About */}
       <Container p="10" mt="100" id="about">
-        <Heading size="xl">Hi! I'm Aman.</Heading>
-        <Center py="10">
-          <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me"/>
-        </Center>
+        <Heading size="xl" mb="10">About Me</Heading>
         <Container fontSize="20px">
           I'm a 19-year old student at the University of Delaware, and I love to create websites and programs.
           <br/><br/>
@@ -76,10 +73,7 @@ function App() {
 
       {/* Experience */}
       <Container p="10" mt="100" id="experience">
-        <Heading size="xl">Hi! I'm Aman.</Heading>
-        <Center py="10">
-          <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me"/>
-        </Center>
+        <Heading size="xl" mb="10">My Experience</Heading>
         <Container fontSize="20px">
           I'm a 19-year old student at the University of Delaware, and I love to create websites and programs.
           <br/><br/>
