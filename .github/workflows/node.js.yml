@@ -25,8 +25,7 @@ jobs:
                   cache: "npm"
             - id: get-repo-values
               run: |
-                  url=https://$(echo "${{github.repository}}" | sed 
-"s/\//.github.io\//")
+                  url=https://$(echo "${{github.repository}}" | sed "s/\//.github.io\//")
                   echo "url=$url" >> $GITHUB_OUTPUT
             - name: Update package.json homepage
               uses: jossef/action-set-json-field@v1
@@ -35,24 +34,18 @@ jobs:
                   field: homepage
                   value: ${{ steps.get-repo-values.outputs.url }}
             - run: npm ci
-            - run: npm run test -- --coverage |& tee 
-./public/test_report.txt
-            - run: echo "<html><head><meta http-equiv='refresh' 
-content='0; URL=${{github.server_url}}/${{github.repository}}' 
-/></head><body>Redirecting to repository</body></html>" > 
-./public/github.html
+            - run: npm run test -- --coverage |& tee ./public/test_report.txt
+            - run: echo "<html><head><meta http-equiv='refresh' content='0; URL=${{github.server_url}}/${{github.repository}}' /></head><body>Redirecting to repository</body></html>" > ./public/github.html
             - run: npm run build --if-present
 
             - name: Deploy
               run: |
                   git config --global user.name ${user_name}
                   git config --global user.email ${user_email}
-                  git remote set-url origin 
-https://${github_token}@github.com/${repository}
+                  git remote set-url origin https://${github_token}@github.com/${repository}
                   npm run deploy
               env:
                   user_name: "github-actions[bot]"
-                  user_email: 
-"github-actions[bot]@users.noreply.github.com"
+                  user_email: "github-actions[bot]@users.noreply.github.com"
                   github_token: ${{ secrets.GH_TOKEN }}
                   repository: ${{ github.repository }}
