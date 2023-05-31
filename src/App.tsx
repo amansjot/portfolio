@@ -27,7 +27,7 @@ function App() {
         top="0"
         w="95%"
         mx="2.5%"
-        bg="#7cc2c2"
+        bg="#b4e7e4"
         color="black"
         borderBottom="2px solid black"
         justify="space-between"
