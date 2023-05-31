@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (212 ms)
+  ✕ renders learn react link (174 ms)
 
   ● renders learn react link
 
@@ -16,7 +16,8 @@ FAIL src/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<nav[39m
-            [33mclass[39m=[32m"chakra-stack css-muzlqe"[39m
+            [33mclass[39m=[32m"chakra-stack css-bvuw6i"[39m
+            [33mid[39m=[32m"top"[39m
           [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"chakra-stack css-84zodg"[39m
@@ -24,7 +25,13 @@ FAIL src/App.test.tsx
               [36m<h2[39m
                 [33mclass[39m=[32m"chakra-heading css-yc55n3"[39m
               [36m>[39m
-                [0mAman Singh[0m
+                [36m<a[39m
+                  [33mclass[39m=[32m"chakra-link css-0"[39m
+                  [33mhref[39m=[32m"#top"[39m
+                  [33mid[39m=[32m"topName"[39m
+                [36m>[39m
+                  [0mAman Singh[0m
+                [36m</a>[39m
               [36m</h2>[39m
             [36m</div>[39m
             [36m<div[39m
@@ -55,8 +62,9 @@ FAIL src/App.test.tsx
                 [0mStack[0m
               [36m</a>[39m
               [36m<a[39m
-                [33mclass[39m=[32m"chakra-link css-19awj4m"[39m
+                [33mclass[39m=[32m"chakra-link css-8er82g"[39m
                 [33mhref[39m=[32m"/resume2023.pdf"[39m
+                [33mid[39m=[32m"resumeLink"[39m
                 [33mtarget[39m=[32m"_blank"[39m
               [36m>[39m
                 [0mResume[0m
@@ -86,7 +94,7 @@ FAIL src/App.test.tsx
             [36m</div>[39m
           [36m</nav>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"chakra-container css-nk32ej"[39m
+            [33mclass[39m=[32m"chakra-container css-1d47gwd"[39m
           [36m>[39m
             [36m<h2[39m
               [33mclass[39m=[32m"chakra-heading css-0"[39m
@@ -108,11 +116,11 @@ FAIL src/App.test.tsx
               [0mI'm a 19-year old student at the University of Delaware, and I love to build programs and websites.[0m
               [36m<br />[39m
               [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my coding experience, projects, and other interests.[0m
+              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"chakra-container css-11wad7y"[39m
+            [33mclass[39m=[32m"chakra-container css-1d47gwd"[39m
             [33mid[39m=[32m"about"[39m
           [36m>[39m
             [36m<h2[39m
@@ -126,11 +134,11 @@ FAIL src/App.test.tsx
               [0mI'm a 19-year old student at the University of Delaware, and I love to create websites and programs.[0m
               [36m<br />[39m
               [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my coding experience, projects, and other interests.[0m
+              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"chakra-container css-11wad7y"[39m
+            [33mclass[39m=[32m"chakra-container css-1d47gwd"[39m
             [33mid[39m=[32m"experience"[39m
           [36m>[39m
             [36m<h2[39m
@@ -144,7 +152,7 @@ FAIL src/App.test.tsx
               [0mI'm a 19-year old student at the University of Delaware, and I love to create websites and programs.[0m
               [36m<br />[39m
               [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my coding experience, projects, and other interests.[0m
+              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
@@ -231,12 +239,12 @@ FAIL src/App.test.tsx
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
 All files           |    7.14 |        0 |      20 |    7.14 |                   
- App.tsx            |   33.33 |      100 |   33.33 |   33.33 | 89-104            
+ App.tsx            |   33.33 |      100 |   33.33 |   33.33 | 95-110            
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.207 s
+Time:        2.167 s
 Ran all test suites.
