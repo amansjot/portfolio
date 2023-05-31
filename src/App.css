@@ -1,6 +1,10 @@
 .App {
     text-align: center;
-    background-color: #7cc2c2;
+    background-color: #b4e7e4;
+}
+
+#topName:hover {
+    text-decoration: none;
 }
 
 #mainPhoto {
@@ -11,14 +15,28 @@
 }
 
 .navLinks a {
-    border-bottom: 2px solid transparent;
-    padding: 3px 6px;
+    border-bottom: 1px solid transparent;
+    padding: 8px 6px;
 }
 
 .navLinks a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #91fff2;
-    color: #91fff2;
+    border-bottom: 1px solid black;
+    /* color: #91fff2; */
+}
+
+#resumeLink {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px 14px;
+}
+
+#resumeLink:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
 }
 
 .iconButton {
