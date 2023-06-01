@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (174 ms)
+  ✕ renders learn react link (126 ms)
 
   ● renders learn react link
 
@@ -16,8 +16,7 @@ FAIL src/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<nav[39m
-            [33mclass[39m=[32m"chakra-stack css-bvuw6i"[39m
-            [33mid[39m=[32m"top"[39m
+            [33mclass[39m=[32m"chakra-stack css-zd2o3i"[39m
           [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"chakra-stack css-84zodg"[39m
@@ -63,7 +62,7 @@ FAIL src/App.test.tsx
               [36m</a>[39m
               [36m<a[39m
                 [33mclass[39m=[32m"chakra-link css-8er82g"[39m
-                [33mhref[39m=[32m"/resume2023.pdf"[39m
+                [33mhref[39m=[32m"resume2023.pdf"[39m
                 [33mid[39m=[32m"resumeLink"[39m
                 [33mtarget[39m=[32m"_blank"[39m
               [36m>[39m
@@ -95,6 +94,7 @@ FAIL src/App.test.tsx
           [36m</nav>[39m
           [36m<div[39m
             [33mclass[39m=[32m"chakra-container css-1d47gwd"[39m
+            [33mid[39m=[32m"top"[39m
           [36m>[39m
             [36m<h2[39m
               [33mclass[39m=[32m"chakra-heading css-0"[39m
@@ -117,6 +117,26 @@ FAIL src/App.test.tsx
               [36m<br />[39m
               [36m<br />[39m
               [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"css-1ailrle"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"svg-inline--fa fa-chevron-down fa-bounce"[39m
+                [33mdata-icon[39m=[32m"chevron-down"[39m
+                [33mdata-prefix[39m=[32m"fas"[39m
+                [33mfocusable[39m=[32m"false"[39m
+                [33mfont-size[39m=[32m"24px"[39m
+                [33mrole[39m=[32m"img"[39m
+                [33mviewBox[39m=[32m"0 0 512 512"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"[39m
+                  [33mfill[39m=[32m"currentColor"[39m
+                [36m/>[39m
+              [36m</svg>[39m
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
@@ -238,13 +258,13 @@ FAIL src/App.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
-All files           |    7.14 |        0 |      20 |    7.14 |                   
- App.tsx            |   33.33 |      100 |   33.33 |   33.33 | 95-110            
+All files           |    5.88 |        0 |    12.5 |    5.88 |                   
+ App.tsx            |   16.66 |      100 |   16.66 |   16.66 | 22-23,74-121      
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.167 s
+Time:        2.303 s
 Ran all test suites.
