@@ -53,3 +53,19 @@
     color: white;
     background-color: #0077B5;
 }
+
+.fa-bounce {
+    --fa-animation-delay: 5s;
+    --fa-animation-duration: 2.5s;
+    --fa-animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.fa-bounce:hover {
+    border-color: black;
+    transition: 0.3s;
+    animation-play-state: paused;
+}

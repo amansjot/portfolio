@@ -12,15 +12,22 @@ import {
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {} from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css"
 
 function App() {
+
+  function removeHash() {
+    setTimeout(function() {
+      window.history.replaceState({}, document.title, ".");
+    }, 10);
+  }
+
   return (
     <div className="App">
       {/* navbar */}
       <HStack
-        id="top"
         as={"nav"}
         p={6}
         position="fixed"
@@ -32,11 +39,12 @@ function App() {
         borderBottom="2px solid black"
         justify="space-between"
         boxShadow="0 4px 4px -4px #555"
+        zIndex="999"
       >
         <HStack>
           {/* <img src={logo} width="50" alt="Clapboard Logo" /> */}
           <Heading size="lg" pl={2}>
-            <Link href="#top" id="topName">Aman Singh</Link>
+            <Link onClick={removeHash} href="#top" id="topName">Aman Singh</Link>
           </Heading>
         </HStack>
         <Flex className="navLinks" justifyContent="space-between" w="40%">
@@ -44,7 +52,7 @@ function App() {
           <Link href="#experience">Experience</Link>
           <Link href="#projects">Projects</Link>
           <Link href="#stack">Stack</Link>
-          <Link href="/resume2023.pdf" target="_blank" mr="3" id="resumeLink">
+          <Link href="resume2023.pdf" target="_blank" mr="3" id="resumeLink">
             Resume
             <ExternalLinkIcon mt="-1" ml="2" />
           </Link>
@@ -52,7 +60,7 @@ function App() {
       </HStack>
 
       {/* Home */}
-      <Container p="10" pt="150">
+      <Container id="top" p="10" pt="150">
         <Heading size="xl">Hi! I'm Aman.</Heading>
         <Center py="10">
           <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me"/>
@@ -62,6 +70,9 @@ function App() {
           <br/><br/>
           Feel free to explore this site to find out more about my experience, projects, and other interests.
         </Container>
+        <Center mt="50">
+          <FontAwesomeIcon onClick={() => window.open("#about", "_self")} fontSize="24px" className="fa-bounce" icon={faChevronDown} />
+        </Center>
       </Container>
 
       {/* About */}
