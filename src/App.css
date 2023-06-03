@@ -25,7 +25,8 @@
     /* color: #91fff2; */
 }
 
-#resumeLink {
+#resumeLink,
+#resumeLink2 {
     color: black;
     background-color: transparent;
     border: 1px solid black;
@@ -33,7 +34,12 @@
     padding: 8px 14px;
 }
 
-#resumeLink:hover {
+#resumeLink2 {
+    padding: 12px 18px;
+}
+
+#resumeLink:hover,
+#resumeLink2:hover {
     color: white;
     background-color: black;
     transition: 0.3s;
@@ -44,28 +50,22 @@
     padding: 20px;
 }
 
-#githubIcon:hover {
-    color: white;
-    background-color: #171515;
-}
-
-#linkedinIcon:hover {
-    color: white;
-    background-color: #0077B5;
-}
-
 .fa-bounce {
     --fa-animation-delay: 5s;
     --fa-animation-duration: 2.5s;
     --fa-animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
     cursor: pointer;
     padding: 10px;
-    border: 1px solid transparent;
-    border-radius: 50%;
+    opacity: 0.4;
 }
 
 .fa-bounce:hover {
-    border-color: black;
+    opacity: 1;
     transition: 0.3s;
-    animation-play-state: paused;
+}
+
+.section {
+    min-height: calc(100vh + 75px);
+    border-bottom: 2px solid black;
+    border-bottom-color: #888;
 }
