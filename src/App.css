@@ -48,6 +48,9 @@
 .iconButton {
     color: white;
     padding: 20px;
+    width: 60px;
+    border-width: 2.5px;
+    border-style: solid;
 }
 
 .fa-bounce {
@@ -68,4 +71,8 @@
     min-height: calc(100vh + 75px);
     border-bottom: 2px solid black;
     border-bottom-color: #888;
+}
+
+span {
+    text-decoration: underline;
 }
