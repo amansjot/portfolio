@@ -11,7 +11,6 @@ import {
   IconButton,
   Center,
   Image,
-  Box,
   StackDivider,
   VStack,
 } from "@chakra-ui/react";
@@ -111,19 +110,24 @@ function App() {
           >
             <HStack textAlign="left">
               <div>
-              <Heading fontSize="26px" mb="2">
-                I'm a{" "}
-                <Text as="span" color="red.500">
-                  learner
-                </Text>
-                .
-              </Heading>
-              <p>
-                I currently attend the University of Delaware as a third-year
-                student majoring in Computer Science B.S. (2021 - present).
-              </p>
+                <Heading fontSize="26px" mb="2">
+                  I'm a{" "}
+                  <Text as="span" color="red.500">
+                    learner
+                  </Text>
+                  .
+                </Heading>
+                <p>
+                  I currently attend the University of Delaware as a third-year
+                  student majoring in Computer Science B.S. (2021 - present).
+                </p>
               </div>
-              <Image alt="UD logo" h="120px" border="1px solid black" src="https://i.imgur.com/4Ekoxl6.png"/>
+              <Image
+                alt="UD logo"
+                h="120px"
+                border="1px solid black"
+                src="https://i.imgur.com/4Ekoxl6.png"
+              />
             </HStack>
             <HStack textAlign="right">
               <Image
@@ -201,7 +205,19 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I have created multiple websites and programs (detailed below). Additionally, I enjoy creating origami models in my free time. One such creation is shown, and you can view my entire collection <Link color="blue" href="//flic.kr/s/aHBqjAHFSA" rel="noreferrer" target="_blank">here</Link>. 
+                  I have created multiple websites and programs (detailed
+                  below). Additionally, I enjoy creating origami models in my
+                  free time. One such creation is shown, and you can view my
+                  entire collection{" "}
+                  <Link
+                    color="blue"
+                    href="//flic.kr/s/aHBqjAHFSA"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    here
+                  </Link>
+                  .
                 </p>
               </div>
               <Image
@@ -226,7 +242,9 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I am currently working as a undergraduate researcher in the Summer Scholars/GEMS program for summer research at the University of Delaware.
+                  I am currently working as a undergraduate researcher in the
+                  Summer Scholars/GEMS program for summer research at the
+                  University of Delaware.
                 </p>
               </div>
             </HStack>
