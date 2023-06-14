@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (153 ms)
+  ✕ renders learn react link (201 ms)
 
   ● renders learn react link
 
@@ -34,8 +34,14 @@ FAIL src/App.test.tsx
               [36m</h2>[39m
             [36m</div>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"navLinks css-1onsjwa"[39m
+              [33mclass[39m=[32m"navLinks css-wly42z"[39m
             [36m>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#about"[39m
+              [36m>[39m
+                [0mAbout Me[0m
+              [36m</a>[39m
               [36m<a[39m
                 [33mclass[39m=[32m"chakra-link css-0"[39m
                 [33mhref[39m=[32m"#experience"[39m
@@ -112,192 +118,76 @@ FAIL src/App.test.tsx
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"chakra-container section css-1d47gwd"[39m
-            [33mid[39m=[32m"experience"[39m
+            [33mclass[39m=[32m"chakra-container section css-bzob6d"[39m
+            [33mid[39m=[32m"about"[39m
           [36m>[39m
             [36m<h2[39m
               [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
             [36m>[39m
-              [0mMy Experience[0m
+              [0mWho Am I?[0m
             [36m</h2>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"chakra-container css-bk9fzy"[39m
+              [33mclass[39m=[32m"chakra-container css-6xix1i"[39m
             [36m>[39m
-              [0mI'm a 19-year old student at the University of Delaware, and I love to create websites and programs.[0m
-              [36m<br />[39m
-              [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"chakra-container section css-1d47gwd"[39m
-            [33mid[39m=[32m"projects"[39m
-          [36m>[39m
-            [36m<h2[39m
-              [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
-            [36m>[39m
-              [0mMy Projects[0m
-            [36m</h2>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"chakra-container css-bk9fzy"[39m
-            [36m>[39m
-              [0mI'm a 19-year old student at the University of Delaware, and I love to create websites and programs.[0m
-              [36m<br />[39m
-              [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"chakra-container section css-1d47gwd"[39m
-            [33mid[39m=[32m"skills"[39m
-          [36m>[39m
-            [36m<h2[39m
-              [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
-            [36m>[39m
-              [0mMy Skills[0m
-            [36m</h2>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"chakra-container css-bk9fzy"[39m
-            [36m>[39m
-              [0mI'm a 19-year old student at the University of Delaware, and I love to create websites and programs.[0m
-              [36m<br />[39m
-              [36m<br />[39m
-              [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"chakra-container section css-1xdusig"[39m
-            [33mid[39m=[32m"resume"[39m
-          [36m>[39m
-            [36m<h2[39m
-              [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
-            [36m>[39m
-              [0mMy Resume[0m
-            [36m</h2>[39m
-            [36m<br />[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"chakra-container css-0"[39m
-            [36m>[39m
-              [36m<a[39m
-                [33mclass[39m=[32m"chakra-link css-4udzyl"[39m
-                [33mhref[39m=[32m"resume2023.pdf"[39m
-                [33mid[39m=[32m"resumeLink2"[39m
-                [33mtarget[39m=[32m"_blank"[39m
-              [36m>[39m
-                [0mOpen PDF[0m
-                [36m<svg[39m
-                  [33mclass[39m=[32m"chakra-icon css-gshhan"[39m
-                  [33mfocusable[39m=[32m"false"[39m
-                  [33mviewBox[39m=[32m"0 0 24 24"[39m
-                [36m>[39m
-                  [36m<g[39m
-                    [33mfill[39m=[32m"none"[39m
-                    [33mstroke[39m=[32m"currentColor"[39m
-                    [33mstroke-linecap[39m=[32m"round"[39m
-                    [33mstroke-width[39m=[32m"2"[39m
-                  [36m>[39m
-                    [36m<path[39m
-                      [33md[39m=[32m"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"[39m
-                    [36m/>[39m
-                    [36m<path[39m
-                      [33md[39m=[32m"M15 3h6v6"[39m
-                    [36m/>[39m
-                    [36m<path[39m
-                      [33md[39m=[32m"M10 14L21 3"[39m
-                    [36m/>[39m
-                  [36m</g>[39m
-                [36m</svg>[39m
-              [36m</a>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"css-z9omnh"[39m
+                [33mclass[39m=[32m"chakra-stack css-zsoya5"[39m
               [36m>[39m
-                [36m<img[39m
-                  [33malt[39m=[32m"Resume"[39m
-                  [33mclass[39m=[32m"chakra-image css-e42auv"[39m
-                  [33msrc[39m=[32m"resume2023.png"[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-stack css-uqhqx0"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<h2[39m
+                      [33mclass[39m=[32m"chakra-heading css-1hy3xpg"[39m
+                    [36m>[39m
+                      [0mI'm a[0m
+                      [0m [0m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"chakra-text css-zov4ca"[39m
+                      [36m>[39m
+                        [0mlearner[0m
+                      [36m</span>[39m
+                      [0m.[0m
+                    [36m</h2>[39m
+                    [36m<p>[39m
+                      [0mI currently attend the University of Delaware as a third-year student majoring in Computer Science B.S. (2021 - present).[0m
+                    [36m</p>[39m
+                  [36m</div>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"UD logo"[39m
+                    [33mclass[39m=[32m"chakra-image css-7n659m"[39m
+                    [33msrc[39m=[32m"https://i.imgur.com/4Ekoxl6.png"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-stack__divider css-17rehbt"[39m
                 [36m/>[39m
-              [36m</div>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"chakra-stack css-m32f1p"[39m
-          [36m>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"css-gmuwbf"[39m
-            [36m>[39m
-              [36m<button[39m
-                [33maria-label[39m=[32m"GitHub"[39m
-                [33mclass[39m=[32m"chakra-button iconButton css-1vr8kcr"[39m
-                [33mid[39m=[32m"githubIcon"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [36m<svg[39m
-                  [33maria-hidden[39m=[32m"true"[39m
-                  [33mclass[39m=[32m"svg-inline--fa fa-github "[39m
-                  [33mdata-icon[39m=[32m"github"[39m
-                  [33mdata-prefix[39m=[32m"fab"[39m
-                  [33mfocusable[39m=[32m"false"[39m
-                  [33mfont-size[39m=[32m"36px"[39m
-                  [33mrole[39m=[32m"img"[39m
-                  [33mviewBox[39m=[32m"0 0 496 512"[39m
-                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"chakra-stack css-1s0piao"[39m
                 [36m>[39m
-                  [36m<path[39m
-                    [33md[39m=[32m"M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"[39m
-                    [33mfill[39m=[32m"currentColor"[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"Wyzant logo"[39m
+                    [33mclass[39m=[32m"chakra-image css-7n659m"[39m
+                    [33msrc[39m=[32m"https://play-lh.googleusercontent.com/5WXcNTWsjoj55h5Z8RjjMwRyogZbYZw_-DWUVfaR4gnC1KKNv1RMlcFgznkq3CqIhKcz"[39m
                   [36m/>[39m
-                [36m</svg>[39m
-              [36m</button>[39m
-              [36m<button[39m
-                [33maria-label[39m=[32m"LinkedIn"[39m
-                [33mclass[39m=[32m"chakra-button iconButton css-xumey2"[39m
-                [33mid[39m=[32m"linkedinIcon"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [36m<svg[39m
-                  [33maria-hidden[39m=[32m"true"[39m
-                  [33mclass[39m=[32m"svg-inline--fa fa-linkedin-in "[39m
-                  [33mdata-icon[39m=[32m"linkedin-in"[39m
-                  [33mdata-prefix[39m=[32m"fab"[39m
-                  [33mfocusable[39m=[32m"false"[39m
-                  [33mfont-size[39m=[32m"32px"[39m
-                  [33mrole[39m=[32m"img"[39m
-                  [33mviewBox[39m=[32m"0 0 448 512"[39m
-                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
-                [36m>[39m
-                  [36m<path[39m
-                    [33md[39m=[32m"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"[39m
-                    [33mfill[39m=[32m"currentColor"[39m
-                  [36m/>[39m
-                [36m</svg>[39m
-              [36m</button>[39m
-              [36m<button[39m
-                [33maria-label[39m=[32m"LinkedIn"[39m
-                [33mclass[39m=[32m"chakra-button iconButton css-14rjxe2"[39m
-                [33mtype[39m=[32m"button"[39m
-              [36m>[39m
-                [36m<svg[39m
-                  [33maria-hidden[39m=[32m"true"[39m
-                  [33mclass[39m=[32m"svg-inline--fa fa-envelope "[39m
-                  [33mdata-icon[39m=[32m"envelope"[39m
-                  [33mdata-prefix[39m=[32m"far"[39m
-                  [33mfocusable[39m=[32m"false"[39m
-                  [33mfont-size[39m=[32m"32px"[39m
-                  [33mrole[39m=[32m"img"[39m
-                  [33mviewBox[39m=[32m"0 0 512 512"[39m
-                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
-                [36m>[39m
-                  [36m<path[39m
-                    [33md[39m=[32m"M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"[39m
-                    [33mfill[39m=[32m"currentColor"[39m
-                  [36m/>[39m
-                [36m</svg>[39m
-              [36m</button>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-        [36m</div>[39m
-      [36m</div>[39m
-    [36m</body>[39m
+                  [36m<div>[39m
+                    [36m<h2[39m
+                      [33mclass[39m=[32m"chakra-heading css-1hy3xpg"[39m
+                    [36m>[39m
+                      [0mI'm a[0m
+                      [0m [0m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"chakra-text css-1yniq95"[39m
+                      [36m>[39m
+                        [0mteacher[0m
+                      [36m</span>[39m
+                      [0m.[0m
+                    [36m</h2>[39m
+                    [36m<p>[39m
+                      [0mAs a [0m
+                      [36m<b>[39m
+                        [0mcertified tutor[0m
+                      [36m</b>[39m
+                      [0...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -321,12 +211,12 @@ FAIL src/App.test.tsx
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
 All files           |    5.55 |        0 |   11.11 |    5.55 |                   
- App.tsx            |   14.28 |      100 |   14.28 |   14.28 | 23-24,82-186      
+ App.tsx            |   14.28 |      100 |   14.28 |   14.28 | 26-27,85-362      
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.439 s
+Time:        2.657 s
 Ran all test suites.
