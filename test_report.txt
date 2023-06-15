@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (201 ms)
+  ✕ renders learn react link (230 ms)
 
   ● renders learn react link
 
@@ -124,7 +124,7 @@ FAIL src/App.test.tsx
             [36m<h2[39m
               [33mclass[39m=[32m"chakra-heading css-1r2f04i"[39m
             [36m>[39m
-              [0mWho Am I?[0m
+              [0mWho am I?[0m
             [36m</h2>[39m
             [36m<div[39m
               [33mclass[39m=[32m"chakra-container css-6xix1i"[39m
@@ -218,5 +218,5 @@ All files           |    5.55 |        0 |   11.11 |    5.55 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.657 s
+Time:        3.001 s
 Ran all test suites.
