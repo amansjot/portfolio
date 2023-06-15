@@ -100,7 +100,7 @@ function App() {
         pb="150px"
       >
         <Heading size="xl" mb="10">
-          Who Am I?
+          Who am I?
         </Heading>
         <Container fontSize="16px">
           <VStack
@@ -207,8 +207,8 @@ function App() {
                 <p>
                   I have created multiple websites and programs (detailed
                   below). Additionally, I enjoy creating origami models in my
-                  free time. One such creation is shown, and you can view my
-                  entire collection{" "}
+                  free time. One such creation is shown, and my entire origami collection
+                  can be found {" "}
                   <Link
                     color="blue"
                     href="//flic.kr/s/aHBqjAHFSA"
