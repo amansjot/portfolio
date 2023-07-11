@@ -73,7 +73,7 @@ function App() {
           <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me" />
         </Center>
         <Container fontSize="20px">
-          I'm a 19-year old student at the University of Delaware, and I love to
+          I'm a 20-year old student at the University of Delaware, and I love to
           build programs and websites.
           <br />
           <br />
