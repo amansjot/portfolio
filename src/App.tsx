@@ -22,6 +22,20 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function App() {
+
+  function getAge() {
+    var date = new Date(2003, 6, 1);
+    var now = new Date();
+    var year = now.getFullYear();
+    var year_diff = year - date.getFullYear();
+    var birthday_this_year = new Date(year, date.getMonth(), date.getDate());
+    var has_had_birthday_this_year = (now >= birthday_this_year);
+
+    return has_had_birthday_this_year
+        ? year_diff
+        : year_diff - 1;
+  }
+
   function removeHash() {
     setTimeout(function () {
       window.history.replaceState({}, document.title, ".");
@@ -73,7 +87,7 @@ function App() {
           <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me" />
         </Center>
         <Container fontSize="20px">
-          I'm a 19-year old student at the University of Delaware, and I love to
+          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
           build programs and websites.
           <br />
           <br />
@@ -125,7 +139,7 @@ function App() {
               <Image
                 alt="UD logo"
                 h="120px"
-                border="1px solid black"
+                boxShadow="0 0 4px"
                 src="https://i.imgur.com/4Ekoxl6.png"
               />
             </HStack>
@@ -133,7 +147,7 @@ function App() {
               <Image
                 alt="Wyzant logo"
                 h="120px"
-                border="1px solid black"
+                boxShadow="0 0 4px"
                 src="https://play-lh.googleusercontent.com/5WXcNTWsjoj55h5Z8RjjMwRyogZbYZw_-DWUVfaR4gnC1KKNv1RMlcFgznkq3CqIhKcz"
               />
               <div>
@@ -169,7 +183,7 @@ function App() {
               <Image
                 alt="Cs+SG logo"
                 h="120px"
-                border="1px solid black"
+                boxShadow="0 0 4px"
                 src="https://avatars.githubusercontent.com/u/47543665?s=200&v=4"
               />
             </HStack>
@@ -177,8 +191,8 @@ function App() {
               <Image
                 alt="HenHacks"
                 h="120px"
-                border="1px solid black"
-                src="https://media.licdn.com/dms/image/D4E22AQEQqIQFbP202g/feedshare-shrink_800/0/1682987435855?e=1689811200&v=beta&t=dEqNK2yF6HgLGjjTqzniEtJ7jYs0h0rHUpo3GkHLXms"
+                boxShadow="0 0 4px"
+                src="https://i.imgur.com/Bjiik1k.png"
               />
               <div>
                 <Heading fontSize="26px" mb="2">
@@ -205,8 +219,14 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I have created multiple websites and programs (detailed
-                  below). Additionally, I enjoy creating origami models in my
+                  I have created multiple websites and programs (detailed&nbsp;
+                    <Link
+                    color="blue"
+                    href="#projects"
+                    rel="noreferrer"
+                  >
+                    below
+                  </Link>). Additionally, I enjoy creating origami models in my
                   free time. One such creation is shown, and my entire origami collection
                   can be found {" "}
                   <Link
@@ -223,7 +243,7 @@ function App() {
               <Image
                 alt="origami creation"
                 h="120px"
-                border="1px solid black"
+                boxShadow="0 0 4px"
                 src="https://live.staticflickr.com/65535/52973061053_d2dfe13e60_b.jpg"
               />
             </HStack>
@@ -235,9 +255,9 @@ function App() {
               />
               <div>
                 <Heading fontSize="26px" mb="2">
-                  I'm an{" "}
+                  I'm a {" "}
                   <Text as="span" color="orange.500">
-                    explorer
+                    researcher
                   </Text>
                   .
                 </Heading>
@@ -258,7 +278,7 @@ function App() {
           My Experience
         </Heading>
         <Container fontSize="20px">
-          I'm a 19-year old student at the University of Delaware, and I love to
+          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
           create websites and programs.
           <br />
           <br />
@@ -273,7 +293,7 @@ function App() {
           My Projects
         </Heading>
         <Container fontSize="20px">
-          I'm a 19-year old student at the University of Delaware, and I love to
+          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
           create websites and programs.
           <br />
           <br />
@@ -288,7 +308,7 @@ function App() {
           My Skills
         </Heading>
         <Container fontSize="20px">
-          I'm a 19-year old student at the University of Delaware, and I love to
+          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
           create websites and programs.
           <br />
           <br />
