@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (203 ms)
+  ✕ renders learn react link (188 ms)
 
   ● renders learn react link
 
@@ -91,7 +91,9 @@ FAIL src/App.test.tsx
             [36m<div[39m
               [33mclass[39m=[32m"chakra-container css-bk9fzy"[39m
             [36m>[39m
-              [0mI'm a 19-year old student at the University of Delaware, and I love to build programs and websites.[0m
+              [0mI'm a [0m
+              [0m20[0m
+              [0m-year-old student at the University of Delaware, and I love to build programs and websites.[0m
               [36m<br />[39m
               [36m<br />[39m
               [0mFeel free to explore this site to find out more about my experience, projects, and other interests.[0m
@@ -154,7 +156,7 @@ FAIL src/App.test.tsx
                   [36m</div>[39m
                   [36m<img[39m
                     [33malt[39m=[32m"UD logo"[39m
-                    [33mclass[39m=[32m"chakra-image css-7n659m"[39m
+                    [33mclass[39m=[32m"chakra-image css-88h566"[39m
                     [33msrc[39m=[32m"https://i.imgur.com/4Ekoxl6.png"[39m
                   [36m/>[39m
                 [36m</div>[39m
@@ -166,7 +168,7 @@ FAIL src/App.test.tsx
                 [36m>[39m
                   [36m<img[39m
                     [33malt[39m=[32m"Wyzant logo"[39m
-                    [33mclass[39m=[32m"chakra-image css-7n659m"[39m
+                    [33mclass[39m=[32m"chakra-image css-88h566"[39m
                     [33msrc[39m=[32m"https://play-lh.googleusercontent.com/5WXcNTWsjoj55h5Z8RjjMwRyogZbYZw_-DWUVfaR4gnC1KKNv1RMlcFgznkq3CqIhKcz"[39m
                   [36m/>[39m
                   [36m<div>[39m
@@ -186,8 +188,7 @@ FAIL src/App.test.tsx
                       [0mAs a [0m
                       [36m<b>[39m
                         [0mcertified tutor[0m
-                      [36m</b>[39m
-                      [0...
+                    ...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -210,13 +211,13 @@ FAIL src/App.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
-All files           |    5.55 |        0 |   11.11 |    5.55 |                   
- App.tsx            |   14.28 |      100 |   14.28 |   14.28 | 26-27,85-362      
+All files           |      32 |    16.66 |      20 |      32 |                   
+ App.tsx            |   57.14 |       50 |      25 |   57.14 | 40-41,99-382      
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.554 s
+Time:        2.69 s
 Ran all test suites.
