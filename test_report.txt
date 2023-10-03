@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (188 ms)
+  ✕ renders learn react link (225 ms)
 
   ● renders learn react link
 
@@ -169,7 +169,7 @@ FAIL src/App.test.tsx
                   [36m<img[39m
                     [33malt[39m=[32m"Wyzant logo"[39m
                     [33mclass[39m=[32m"chakra-image css-88h566"[39m
-                    [33msrc[39m=[32m"https://play-lh.googleusercontent.com/5WXcNTWsjoj55h5Z8RjjMwRyogZbYZw_-DWUVfaR4gnC1KKNv1RMlcFgznkq3CqIhKcz"[39m
+                    [33msrc[39m=[32m"https://i.imgur.com/eatPtCx.png"[39m
                   [36m/>[39m
                   [36m<div>[39m
                     [36m<h2[39m
@@ -188,7 +188,8 @@ FAIL src/App.test.tsx
                       [0mAs a [0m
                       [36m<b>[39m
                         [0mcertified tutor[0m
-                    ...
+                      [36m</b>[39m
+                      [0m on Wyzant, I hold in-person and onl...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -212,12 +213,12 @@ FAIL src/App.test.tsx
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
 All files           |      32 |    16.66 |      20 |      32 |                   
- App.tsx            |   57.14 |       50 |      25 |   57.14 | 40-41,99-382      
+ App.tsx            |   57.14 |       50 |      25 |   57.14 | 40-41,99-367      
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.69 s
+Time:        2.694 s
 Ran all test suites.
