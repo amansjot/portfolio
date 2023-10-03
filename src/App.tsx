@@ -21,6 +21,7 @@ import {
   Divider,
   UnorderedList,
   ListItem,
+  Spacer,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -280,7 +281,7 @@ function App() {
           My Experience
         </Heading>
         <Container>
-          <Card>
+          <Card mb="7" boxShadow="0 0 3px">
             <CardHeader>
               <Heading fontSize="26px" mb="4">
                 Freelance Computer Science Tutor
@@ -298,7 +299,9 @@ function App() {
                   <Text>Wyzant Tutoring</Text>
                 </Center>
               </Heading>
-              <Text fontSize="12px" mt="2">JULY 2021 – PRESENT</Text>
+              <Text fontSize="12px" mt="2">
+                JULY 2021 – PRESENT
+              </Text>
             </CardHeader>
             <Divider mx="5" w="90%" borderColor="#bbb" />
             <CardBody>
@@ -379,15 +382,13 @@ function App() {
                         Teach students about Computer Science topics
                       </ListItem>
                       <ListItem>
-                        Help with projects and homework
-                        (online and in-person)
+                        Help with projects and homework (online and in-person)
                       </ListItem>
                       <ListItem>
                         Prepare frequent lessons for each student
                       </ListItem>
                       <ListItem>
-                        Motivate students to
-                        achieve their educational goals
+                        Motivate students to achieve their educational goals
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -396,9 +397,145 @@ function App() {
             </CardBody>
           </Card>
 
-          <Container mt="5">
-          The rest of my experience is in my Resume at the bottom.
-          </Container>
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader>
+              <Heading fontSize="26px" mb="4">
+                Undergraduate Researcher
+              </Heading>
+              <Divider mb="5" w="100%" borderColor="#bbb" />
+              <Heading fontSize="18px">
+                <Center>
+                  <Image
+                    src="https://i.imgur.com/VGbneYs.png"
+                    w="5"
+                    h="5"
+                    alt="UD Logo"
+                  ></Image>
+                  &nbsp;
+                  <Text>University of Delaware</Text>
+                </Center>
+              </Heading>
+              <Text fontSize="12px" mt="2">
+                JUNE 2023 – AUGUST 2023
+              </Text>
+            </CardHeader>
+            <Divider mx="5" w="90%" borderColor="#bbb" />
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="2" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Completed a 10-week research program involving
+                        programming
+                      </ListItem>
+                      <ListItem>
+                        Verified a computationally complex mathematical proof in
+                        Python
+                      </ListItem>
+                      <ListItem>
+                        Developed the solution around specifications from a
+                        professor
+                      </ListItem>
+                      <ListItem>
+                        Showcased the results via a poster at a research
+                        symposium
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="100" boxShadow="0 0 3px">
+            <CardHeader>
+              <Heading fontSize="26px" mb="4">
+                C.S. Teaching Assistant
+              </Heading>
+              <Divider mb="5" w="100%" borderColor="#bbb" />
+              <Heading fontSize="18px">
+                <Center>
+                  <Image
+                    src="https://i.imgur.com/VGbneYs.png"
+                    w="5"
+                    h="5"
+                    alt="UD Logo"
+                  ></Image>
+                  &nbsp;
+                  <Text>University of Delaware</Text>
+                </Center>
+              </Heading>
+              <Text fontSize="12px" mt="2">
+                AUGUST 2022 – DECEMBER 2022
+              </Text>
+            </CardHeader>
+            <Divider mx="5" w="90%" borderColor="#bbb" />
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="2" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Helped students with course assignments and projects
+                      </ListItem>
+                      <ListItem>
+                        Developed instructional material for a Computer Science
+                        course
+                      </ListItem>
+                      <ListItem>
+                        Created and debugged projects for accelerated students
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
         </Container>
       </Container>
 
@@ -408,7 +545,276 @@ function App() {
           My Projects
         </Heading>
         <Container fontSize="20px">
-          View my Projects in my Resume at the bottom.
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Spectral Seriation
+              </Heading>
+              <Text fontSize="14px">by Aman Singh</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/wYo8c6L.png"
+                          alt="Screenshot of Spectral Seriation Result"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Link
+                      href="https://github.com/amansjot/spectral-seriation"
+                      title="Spectral Seriation - GitHub"
+                      target="_blank"
+                    >
+                      View Code <ExternalLinkIcon mt="-1" />
+                    </Link>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Written as an Undergraduate Research for Summer Scholars
+                      </ListItem>
+                      <ListItem>
+                        Several programs written to manipulate graphs and
+                        matrices
+                      </ListItem>
+                      <ListItem>
+                        Overall program verifies a computationally complex proof
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Portfolio
+              </Heading>
+              <Text fontSize="14px">by Aman Singh</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/ia9olWY.png"
+                          alt="Screenshot of Portfolio"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/portfolio"
+                        title="Portfolio - GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="#"
+                        title="Portfolio Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                          alt="TypeScript logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>TypeScript</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                          alt="React logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>React</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/Wo1XhiY.jpg"
+                          alt="Chakra UI logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Chakra UI</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="6" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Showcases all of my work: experience, projects, and skills
+                      </ListItem>
+                      <ListItem>
+                        Created with Vite React-TS template (wrote all other code) 
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="100" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                MoviePedia
+              </Heading>
+              <Text fontSize="14px">by Aman Singh and 4 others</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/7XUjaaA.png"
+                          alt="Screenshot of MoviePedia Live Website"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/Team5-MoviePedia"
+                        title="MoviePedia - GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://amansjot.github.io/Team5-MoviePedia/"
+                        title="MoviePedia Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                          alt="TypeScript logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>TypeScript</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                          alt="React logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>React</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/Wo1XhiY.jpg"
+                          alt="Chakra UI logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Chakra UI</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Final collaborative project for Software Engineering course
+                      </ListItem>
+                      <ListItem>
+                        Users can edit names, lists, and movies from a movie database
+                      </ListItem>
+                      <ListItem>
+                        Implements several roles with saved state using local storage
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
         </Container>
       </Container>
 
