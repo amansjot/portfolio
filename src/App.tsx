@@ -283,9 +283,10 @@ function App() {
           <Card>
             <CardHeader>
               <Heading fontSize="26px" mb="4">
-                Certified Computer Science Tutor
+                Freelance Computer Science Tutor
               </Heading>
-              <Heading fontSize="20px">
+              <Divider mb="5" w="100%" borderColor="#bbb" />
+              <Heading fontSize="18px">
                 <Center>
                   <Image
                     src="https://i.imgur.com/eatPtCx.png"
