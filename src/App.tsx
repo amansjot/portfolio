@@ -21,7 +21,6 @@ import {
   Divider,
   UnorderedList,
   ListItem,
-  Spacer,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -650,9 +649,9 @@ function App() {
                         View Code <ExternalLinkIcon mt="-1" />
                       </Link>
                       <Link
-                        href="#"
+                        onClick={removeHash}
+                        href="#top"
                         title="Portfolio Website"
-                        target="_blank"
                       >
                         Live Website <ExternalLinkIcon mt="-1" />
                       </Link>
@@ -704,10 +703,12 @@ function App() {
                   <Text pt="2" mx="6" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Showcases all of my work: experience, projects, and skills
+                        Showcases all of my work: experience, projects, and
+                        skills
                       </ListItem>
                       <ListItem>
-                        Created with Vite React-TS template (wrote all other code) 
+                        Created with Vite React-TS template (wrote all other
+                        code)
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -801,13 +802,16 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Final collaborative project for Software Engineering course
+                        Final collaborative project for Software Engineering
+                        course
                       </ListItem>
                       <ListItem>
-                        Users can edit names, lists, and movies from a movie database
+                        Users can edit names, lists, and movies from a movie
+                        database
                       </ListItem>
                       <ListItem>
-                        Implements several roles with saved state using local storage
+                        Implements several roles with saved state using local
+                        storage
                       </ListItem>
                     </UnorderedList>
                   </Text>
