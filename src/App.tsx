@@ -148,7 +148,7 @@ function App() {
                 alt="Wyzant logo"
                 h="120px"
                 boxShadow="0 0 4px"
-                src="https://play-lh.googleusercontent.com/5WXcNTWsjoj55h5Z8RjjMwRyogZbYZw_-DWUVfaR4gnC1KKNv1RMlcFgznkq3CqIhKcz"
+                src="https://i.imgur.com/eatPtCx.png"
               />
               <div>
                 <Heading fontSize="26px" mb="2">
@@ -278,12 +278,7 @@ function App() {
           My Experience
         </Heading>
         <Container fontSize="20px">
-          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
-          create websites and programs.
-          <br />
-          <br />
-          Feel free to explore this site to find out more about my experience,
-          projects, and other interests.
+          View my Experience in my Resume at the bottom.
         </Container>
       </Container>
 
@@ -293,12 +288,7 @@ function App() {
           My Projects
         </Heading>
         <Container fontSize="20px">
-          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
-          create websites and programs.
-          <br />
-          <br />
-          Feel free to explore this site to find out more about my experience,
-          projects, and other interests.
+          View my Projects in my Resume at the bottom.
         </Container>
       </Container>
 
@@ -308,12 +298,7 @@ function App() {
           My Skills
         </Heading>
         <Container fontSize="20px">
-          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
-          create websites and programs.
-          <br />
-          <br />
-          Feel free to explore this site to find out more about my experience,
-          projects, and other interests.
+          View my Skills in my Resume at the bottom.
         </Container>
       </Container>
 
