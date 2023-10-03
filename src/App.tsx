@@ -13,6 +13,15 @@ import {
   Image,
   StackDivider,
   VStack,
+  Card,
+  CardBody,
+  Box,
+  CardHeader,
+  Stack,
+  Divider,
+  UnorderedList,
+  ListItem,
+  Grid,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,18 +31,15 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function App() {
-
   function getAge() {
     var date = new Date(2003, 6, 1);
     var now = new Date();
     var year = now.getFullYear();
     var year_diff = year - date.getFullYear();
     var birthday_this_year = new Date(year, date.getMonth(), date.getDate());
-    var has_had_birthday_this_year = (now >= birthday_this_year);
+    var has_had_birthday_this_year = now >= birthday_this_year;
 
-    return has_had_birthday_this_year
-        ? year_diff
-        : year_diff - 1;
+    return has_had_birthday_this_year ? year_diff : year_diff - 1;
   }
 
   function removeHash() {
@@ -87,8 +93,8 @@ function App() {
           <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me" />
         </Center>
         <Container fontSize="20px">
-          I'm a {getAge()}-year-old student at the University of Delaware, and I love to
-          build programs and websites.
+          I'm a {getAge()}-year-old student at the University of Delaware, and I
+          love to build programs and websites.
           <br />
           <br />
           Feel free to explore this site to find out more about my experience,
@@ -220,15 +226,12 @@ function App() {
                 </Heading>
                 <p>
                   I have created multiple websites and programs (detailed&nbsp;
-                    <Link
-                    color="blue"
-                    href="#projects"
-                    rel="noreferrer"
-                  >
+                  <Link color="blue" href="#projects" rel="noreferrer">
                     below
-                  </Link>). Additionally, I enjoy creating origami models in my
-                  free time. One such creation is shown, and my entire origami collection
-                  can be found {" "}
+                  </Link>
+                  ). Additionally, I enjoy creating origami models in my free
+                  time. One such creation is shown, and my entire origami
+                  collection can be found{" "}
                   <Link
                     color="blue"
                     href="//flic.kr/s/aHBqjAHFSA"
@@ -255,7 +258,7 @@ function App() {
               />
               <div>
                 <Heading fontSize="26px" mb="2">
-                  I'm a {" "}
+                  I'm a{" "}
                   <Text as="span" color="orange.500">
                     researcher
                   </Text>
@@ -277,8 +280,123 @@ function App() {
         <Heading size="xl" mb="10">
           My Experience
         </Heading>
-        <Container fontSize="20px">
-          View my Experience in my Resume at the bottom.
+        <Container>
+          <Card>
+            <CardHeader>
+              <Heading fontSize="26px" mb="4">
+                Certified Computer Science Tutor
+              </Heading>
+              <Heading fontSize="20px">
+                <Center>
+                  <Image
+                    src="https://i.imgur.com/eatPtCx.png"
+                    w="5"
+                    h="5"
+                    alt="Wyzant Logo"
+                  ></Image>
+                  &nbsp;
+                  <Text>Wyzant Tutoring</Text>
+                </Center>
+              </Heading>
+            </CardHeader>
+
+            <CardBody>
+              <Stack divider={<StackDivider />} spacing="4">
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                          alt="HTML logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>HTML</Text>
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>CSS</Text>{" "}
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+                          alt="JS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>JavaScript</Text>{" "}
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+                          alt="PHP logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>PHP</Text>{" "}
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+                          alt="Java logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Java</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="7" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Teach students about Computer Science topics
+                      </ListItem>
+                      <ListItem>
+                        Help with projects and homework
+                        (online and in-person)
+                      </ListItem>
+                      <ListItem>
+                        Prepare frequent lessons for each student
+                      </ListItem>
+                      <ListItem>
+                        Motivate students to
+                        achieve their educational goals
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Container mt="5">
+          The rest of my experience is in my Resume at the bottom.
+          </Container>
         </Container>
       </Container>
 
