@@ -298,10 +298,11 @@ function App() {
                   <Text>Wyzant Tutoring</Text>
                 </Center>
               </Heading>
+              <Text fontSize="12px" mt="2">JULY 2021 – PRESENT</Text>
             </CardHeader>
-
+            <Divider mx="5" w="90%" borderColor="#bbb" />
             <CardBody>
-              <Stack divider={<StackDivider />} spacing="4">
+              <Stack spacing="4">
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
                     Languages
@@ -367,6 +368,7 @@ function App() {
                     </Flex>
                   </Text>
                 </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
                     Overview
