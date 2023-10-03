@@ -21,7 +21,6 @@ import {
   Divider,
   UnorderedList,
   ListItem,
-  Grid,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
