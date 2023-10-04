@@ -21,6 +21,7 @@ import {
   Divider,
   UnorderedList,
   ListItem,
+  Grid
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -827,8 +828,95 @@ function App() {
         <Heading size="xl" mb="10">
           My Skills
         </Heading>
-        <Container fontSize="20px">
-          View my Skills in my Resume at the bottom.
+        <Container fontSize="18px">
+          <Text mb="10">
+            A sample of technical skills I've gained over the years
+          </Text>
+          <Container>
+            <Grid templateColumns="repeat(3, 1fr)" rowGap={12} columnGap={6} fontSize="16px">
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/sXdpGX7.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">Git</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/5FK6NrD.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">GitHub</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/N5ZA26r.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">MySQL</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/pkYAN9p.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">phpMyAdmin</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/4Qoczb0.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">Visual Studio</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/TaKlMNM.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">Shell Scripting</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/1xoCEhY.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">MS Office</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/BoeQqyk.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">IntelliJ</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/zmEi36J.png"
+                  alt=""
+                ></Image>
+                <Text mt="2">Mathematica</Text>
+              </Container>
+            </Grid>
+          </Container>
         </Container>
       </Container>
 
