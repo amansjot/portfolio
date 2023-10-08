@@ -21,7 +21,7 @@ import {
   Divider,
   UnorderedList,
   ListItem,
-  Grid
+  Grid,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -374,6 +374,25 @@ function App() {
                 <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/EcnuiEo.png"
+                          alt="apple icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Teaching</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />  
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
                     Overview
                   </Heading>
                   <Text pt="2" mx="7" fontSize="sm">
@@ -436,6 +455,63 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                  <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Globe_icon.svg/840px-Globe_icon.svg.png"
+                          alt="Research icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Research</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                    <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/TaKlMNM.png"
+                          alt="Shell Scripting icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Shell Scripting</Text>
                       </Center>
                     </Flex>
                   </Text>
@@ -598,6 +674,54 @@ function App() {
                 <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                    <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/TaKlMNM.png"
+                          alt="Shell Scripting icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Shell Scripting</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
                     Overview
                   </Heading>
                   <Text pt="2" mx="4" fontSize="sm">
@@ -692,6 +816,43 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>Chakra UI</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
                       </Center>
                     </Flex>
                   </Text>
@@ -798,6 +959,43 @@ function App() {
                 <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
                     Overview
                   </Heading>
                   <Text pt="2" mx="4" fontSize="sm">
@@ -833,7 +1031,12 @@ function App() {
             A sample of technical skills I've gained over the years
           </Text>
           <Container>
-            <Grid templateColumns="repeat(3, 1fr)" rowGap={12} columnGap={6} fontSize="16px">
+            <Grid
+              templateColumns="repeat(3, 1fr)"
+              rowGap={12}
+              columnGap={6}
+              fontSize="16px"
+            >
               <Container>
                 <Image
                   height="50px"
@@ -877,7 +1080,7 @@ function App() {
                   src="https://i.imgur.com/4Qoczb0.png"
                   alt=""
                 ></Image>
-                <Text mt="2">Visual Studio</Text>
+                <Text mt="2">VSCode</Text>
               </Container>
               <Container>
                 <Image
