@@ -879,6 +879,143 @@ function App() {
             </CardBody>
           </Card>
 
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                HAKSafety
+              </Heading>
+              <Text fontSize="14px">by Aman Singh and 3 others</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/xFzRbGz.png"
+                          alt="Screenshot of HAKSafety Live Website"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/HAKSafety"
+                        title="HAKSafety - GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://amansjot.github.io/HAKSafety/"
+                        title="HAKSafety Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                          alt="TypeScript logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>TypeScript</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                          alt="React logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>React</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/Wo1XhiY.jpg"
+                          alt="Chakra UI logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Chakra UI</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Placed 1st in the HenHacks 2023 - Best M&T Community Hack
+                      </ListItem>
+                      <ListItem>
+                        Formulated a solution to local safety with a virtual blue button 
+                      </ListItem>
+                      <ListItem>
+                        Made to give real-time event alerts and easy-access hotlines 
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
           <Card mb="100" boxShadow="0 0 3px">
             <CardHeader mb="-8">
               <Heading fontSize="26px" mb="2">
