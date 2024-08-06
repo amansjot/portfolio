@@ -79,7 +79,7 @@ function App() {
           <Link href="#projects">Projects</Link>
           <Link href="#skills">Skills</Link>
           <Link href="#resume" target="_self" mr="3" id="resumeLink">
-            {/* replace href="resume2023.pdf" target="_self" */}
+            {/* replace href="resume2024.pdf" target="_self" */}
             Resume
             {/* <ExternalLinkIcon mt="-1" ml="2" /> */}
           </Link>
@@ -1275,7 +1275,7 @@ function App() {
         <br />
         <Container>
           <Link
-            href="resume2023.pdf"
+            href="resume2024.pdf"
             _hover={{ textDecoration: "none" }}
             target="_blank"
             mr="3"
@@ -1285,7 +1285,7 @@ function App() {
             <ExternalLinkIcon mt="-1" ml="2" />
           </Link>
           <Center mt="8">
-            <Image src="resume2023.png" alt="Resume" border="1px solid black" />
+            <Image src="resume2024.png" alt="Resume" border="1px solid black" />
           </Center>
         </Container>
       </Container>
