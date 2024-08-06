@@ -209,7 +209,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (397 ms)
+  ✕ renders learn react link (426 ms)
 
   ● renders learn react link
 
@@ -298,7 +298,7 @@ FAIL src/App.test.tsx
               [33mclass[39m=[32m"chakra-container css-bk9fzy"[39m
             [36m>[39m
               [0mI'm a [0m
-              [0m20[0m
+              [0m21[0m
               [0m-year-old student at the University of Delaware, and I love to build programs and websites.[0m
               [36m<br />[39m
               [36m<br />[39m
@@ -426,5 +426,5 @@ All files           |      32 |    16.66 |      20 |      32 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.093 s
+Time:        3.413 s
 Ran all test suites.
