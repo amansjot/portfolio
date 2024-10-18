@@ -79,7 +79,7 @@ function App() {
           <Link href="#projects">Projects</Link>
           <Link href="#skills">Skills</Link>
           <Link href="#resume" target="_self" mr="3" id="resumeLink">
-            {/* replace href="resume2024.pdf" target="_self" */}
+            {/* replace href="resume102024.pdf" target="_self" */}
             Resume
             {/* <ExternalLinkIcon mt="-1" ml="2" /> */}
           </Link>
@@ -90,7 +90,7 @@ function App() {
       <Container id="top" p="10" pt="150" className="section">
         <Heading size="xl">Hi! I'm Aman.</Heading>
         <Center py="10">
-          <img id="mainPhoto" src="https://i.imgur.com/x97qmFj.png" alt="Me" />
+          <img id="mainPhoto" src="headshot.jpg" alt="Me" />
         </Center>
         <Container fontSize="20px">
           I'm a {getAge()}-year-old student at the University of Delaware, and I
@@ -390,7 +390,113 @@ function App() {
                     </Flex>
                   </Text>
                 </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />  
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="7" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Teach students about Computer Science topics
+                      </ListItem>
+                      <ListItem>
+                        Help with projects and homework (online and in-person)
+                      </ListItem>
+                      <ListItem>
+                        Prepare frequent lessons for each student
+                      </ListItem>
+                      <ListItem>
+                        Motivate students to achieve their educational goals
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader>
+              <Heading fontSize="26px" mb="4">
+                Data Engineering Intern
+              </Heading>
+              <Divider mb="5" w="100%" borderColor="#bbb" />
+              <Heading fontSize="18px">
+                <Center>
+                  <Image
+                    src="https://i.imgur.com/WBFbfq1.png"
+                    w="5"
+                    h="5"
+                    alt="Chemours Logo"
+                  ></Image>
+                  &nbsp;
+                  <Text>Chemours</Text>
+                </Center>
+              </Heading>
+              <Text fontSize="12px" mt="2">
+                MAY 2024 – AUGUST 2024
+              </Text>
+            </CardHeader>
+            <Divider mx="5" w="90%" borderColor="#bbb" />
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/G5KAURb.png"
+                          alt="SQL Server logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>SQL Server</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>CSS</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/EcnuiEo.png"
+                          alt="apple icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Teaching</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
                     Overview
@@ -465,7 +571,7 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                  <Flex justifyContent="space-evenly" p="2">
+                    <Flex justifyContent="space-evenly" p="2">
                       <Center w="35%">
                         <Image
                           w="7"
@@ -495,7 +601,7 @@ function App() {
                       </Center>
                     </Flex>
                     <Flex justifyContent="space-evenly" p="2">
-                    <Center w="35%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -621,128 +727,6 @@ function App() {
           My Projects
         </Heading>
         <Container fontSize="20px">
-          <Card mb="7" boxShadow="0 0 3px">
-            <CardHeader mb="-8">
-              <Heading fontSize="26px" mb="2">
-                Spectral Seriation
-              </Heading>
-              <Text fontSize="14px">by Aman Singh</Text>
-            </CardHeader>
-            <CardBody>
-              <Stack spacing="4">
-                <Box>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center>
-                        <Image
-                          border="1px solid #aaa"
-                          borderRadius="8px"
-                          w="100%"
-                          src="https://i.imgur.com/wYo8c6L.png"
-                          alt="Screenshot of Spectral Seriation Result"
-                        ></Image>
-                      </Center>
-                    </Flex>
-                    <Link
-                      href="https://github.com/amansjot/spectral-seriation"
-                      title="Spectral Seriation - GitHub"
-                      target="_blank"
-                    >
-                      View Code <ExternalLinkIcon mt="-1" />
-                    </Link>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Languages
-                  </Heading>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center w="20%">
-                        <Image
-                          w="7"
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
-                          alt="Python logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>Python</Text>
-                      </Center>
-                    </Flex>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Skills
-                  </Heading>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                    <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/4Qoczb0.png"
-                          alt="VSCode logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>VSCode</Text>
-                      </Center>
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/TaKlMNM.png"
-                          alt="Shell Scripting icon"
-                        ></Image>
-                        &nbsp;
-                        <Text>Shell Scripting</Text>
-                      </Center>
-                    </Flex>
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/sXdpGX7.png"
-                          alt="Git logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>Git</Text>
-                      </Center>
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/5FK6NrD.png"
-                          alt="GitHub logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>GitHub</Text>
-                      </Center>
-                    </Flex>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Overview
-                  </Heading>
-                  <Text pt="2" mx="4" fontSize="sm">
-                    <UnorderedList>
-                      <ListItem>
-                        Written as an Undergraduate Research for Summer Scholars
-                      </ListItem>
-                      <ListItem>
-                        Several programs written to manipulate graphs and
-                        matrices
-                      </ListItem>
-                      <ListItem>
-                        Overall program verifies a computationally complex proof
-                      </ListItem>
-                    </UnorderedList>
-                  </Text>
-                </Box>
-              </Stack>
-            </CardBody>
-          </Card>
-
           <Card mb="7" boxShadow="0 0 3px">
             <CardHeader mb="-8">
               <Heading fontSize="26px" mb="2">
@@ -882,6 +866,521 @@ function App() {
           <Card mb="7" boxShadow="0 0 3px">
             <CardHeader mb="-8">
               <Heading fontSize="26px" mb="2">
+                Sudoku Solver
+              </Heading>
+              <Text fontSize="14px">by Aman Singh</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/vguplQF.png"
+                          alt="Screenshot of Sudoku Solver"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Link
+                      href="https://github.com/amansjot/sudoku-solver"
+                      title="Sudoku Solver - GitHub"
+                      target="_blank"
+                    >
+                      View Code <ExternalLinkIcon mt="-1" />
+                    </Link>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/41JfoQQ.png"
+                          alt="AI icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>AI</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Written as an Undergraduate Research for Summer Scholars
+                      </ListItem>
+                      <ListItem>
+                        Several programs written to manipulate graphs and
+                        matrices
+                      </ListItem>
+                      <ListItem>
+                        Overall program verifies a computationally complex proof
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Blue Hen Bodega
+              </Heading>
+              <Text fontSize="14px">by Aman Singh</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/liLJ6Nc.png"
+                          alt="Screenshot of Blue Hen Bodega Live Website"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/delivery-app-deloitte"
+                        title="Blue Hen Bodega - GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://amansjot.github.io/delivery-app-deloitte/"
+                        title="Blue Hen Bodega Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                          alt="TypeScript logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>TypeScript</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                          alt="React logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>React</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/Wo1XhiY.jpg"
+                          alt="Chakra UI logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Chakra UI</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Won 1st place in the 2024 Deloitte Case Competition at UD
+                      </ListItem>
+                      <ListItem>
+                        Built to demonstrate a solution to a local food supply problem 
+                      </ListItem>
+                      <ListItem>
+                        Coded in 72 hours as a proof-of-concept for a delivery website
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Spectral Seriation
+              </Heading>
+              <Text fontSize="14px">by Aman Singh</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/wYo8c6L.png"
+                          alt="Screenshot of Spectral Seriation Result"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Link
+                      href="https://github.com/amansjot/spectral-seriation"
+                      title="Spectral Seriation - GitHub"
+                      target="_blank"
+                    >
+                      View Code <ExternalLinkIcon mt="-1" />
+                    </Link>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                          alt="Python logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Python</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/TaKlMNM.png"
+                          alt="Shell Scripting icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Shell Scripting</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="4" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Written as an Undergraduate Research for Summer Scholars
+                      </ListItem>
+                      <ListItem>
+                        Several programs written to manipulate graphs and
+                        matrices
+                      </ListItem>
+                      <ListItem>
+                        Overall program verifies a computationally complex proof
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Parking Panic
+              </Heading>
+              <Text fontSize="14px">by Aman Singh and 4 others</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/58ZyNqK.png"
+                          alt="Screenshot of Parking Panic"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/parking-panic"
+                        title="Parking Panic GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://amansjot.github.io/parking-panic/"
+                        title="Parking Panic Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                    <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                          alt="HTML logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>HTML</Text>
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>CSS</Text>{" "}
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+                          alt="JS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>JavaScript</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                      <Center w="25%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="6" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Developed a driving game with static web technologies
+                      </ListItem>
+                      <ListItem>
+                        Fully-functional game with multiple modes and challenges
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
                 HAKSafety
               </Heading>
               <Text fontSize="14px">by Aman Singh and 3 others</Text>
@@ -1001,13 +1500,16 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Placed 1st in the HenHacks 2023 - Best M&T Community Hack
+                        Placed 1st in HenHacks 2023 - Best M&T Community
+                        Hack
                       </ListItem>
                       <ListItem>
-                        Formulated a solution to local safety with a virtual blue button 
+                        Formulated a solution to local safety with a virtual
+                        blue button
                       </ListItem>
                       <ListItem>
-                        Made to give real-time event alerts and easy-access hotlines 
+                        Made to give real-time event alerts and easy-access
+                        hotlines
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -1275,7 +1777,7 @@ function App() {
         <br />
         <Container>
           <Link
-            href="resume2024.pdf"
+            href="resume102024.pdf"
             _hover={{ textDecoration: "none" }}
             target="_blank"
             mr="3"
@@ -1285,7 +1787,11 @@ function App() {
             <ExternalLinkIcon mt="-1" ml="2" />
           </Link>
           <Center mt="8">
-            <Image src="resume2024.png" alt="Resume" border="1px solid black" />
+            <Image
+              src="resume102024.png"
+              alt="Resume"
+              border="1px solid black"
+            />
           </Center>
         </Container>
       </Container>
