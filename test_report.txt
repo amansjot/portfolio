@@ -209,7 +209,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (426 ms)
+  ✕ renders learn react link (496 ms)
 
   ● renders learn react link
 
@@ -291,7 +291,7 @@ FAIL src/App.test.tsx
               [36m<img[39m
                 [33malt[39m=[32m"Me"[39m
                 [33mid[39m=[32m"mainPhoto"[39m
-                [33msrc[39m=[32m"https://i.imgur.com/x97qmFj.png"[39m
+                [33msrc[39m=[32m"headshot.jpg"[39m
               [36m/>[39m
             [36m</div>[39m
             [36m<div[39m
@@ -395,7 +395,7 @@ FAIL src/App.test.tsx
                       [36m<b>[39m
                         [0mcertified tutor[0m
                       [36m</b>[39m
-                      [0m on Wyzant, I hold in-person and onl...
+                      [0m on Wyzant, I hold in-person and online Computer Scienc...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -419,12 +419,12 @@ FAIL src/App.test.tsx
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
 All files           |      32 |    16.66 |      20 |      32 |                   
- App.tsx            |   57.14 |       50 |      25 |   57.14 | 46-47,105-1325    
+ App.tsx            |   57.14 |       50 |      25 |   57.14 | 46-47,105-1831    
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.413 s
+Time:        3.411 s
 Ran all test suites.
