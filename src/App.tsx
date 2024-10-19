@@ -885,13 +885,22 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Link
-                      href="https://github.com/amansjot/sudoku-solver"
-                      title="Sudoku Solver - GitHub"
-                      target="_blank"
-                    >
-                      View Code <ExternalLinkIcon mt="-1" />
-                    </Link>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/sudoku-solver"
+                        title="Sudoku Solver - GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://sudoku-solver-ruby.vercel.app/"
+                        title="Sudoku Solver Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
                   </Text>
                 </Box>
                 <Divider mx="5" w="100%" borderColor="#bbb" />
@@ -1107,13 +1116,16 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Won 1st place in the 2024 Deloitte Case Competition at UD
+                        Won 1st place in the 2024 Deloitte Case Competition at
+                        UD
                       </ListItem>
                       <ListItem>
-                        Built to demonstrate a solution to a local food supply problem 
+                        Built to demonstrate a solution to a local food supply
+                        problem
                       </ListItem>
                       <ListItem>
-                        Coded in 72 hours as a proof-of-concept for a delivery website
+                        Coded in 72 hours as a proof-of-concept for a delivery
+                        website
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -1291,7 +1303,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                    <Center w="20%">
+                      <Center w="20%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
@@ -1500,8 +1512,7 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Placed 1st in HenHacks 2023 - Best M&T Community
-                        Hack
+                        Placed 1st in HenHacks 2023 - Best M&T Community Hack
                       </ListItem>
                       <ListItem>
                         Formulated a solution to local safety with a virtual
