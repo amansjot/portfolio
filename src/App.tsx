@@ -880,7 +880,7 @@ function App() {
                           border="1px solid #aaa"
                           borderRadius="8px"
                           w="100%"
-                          src="https://i.imgur.com/k2PZIc5.png"
+                          src="https://i.imgur.com/JgsDOgP.png"
                           alt="Screenshot of Sudoku Solver"
                         ></Image>
                       </Center>
@@ -918,6 +918,35 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>Python</Text>
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                          alt="HTML logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>HTML</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>CSS</Text>{" "}
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+                          alt="JS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>JavaScript</Text>{" "}
                       </Center>
                     </Flex>
                   </Text>
@@ -978,14 +1007,13 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Written as an Undergraduate Research for Summer Scholars
+                        Final project for graduate-level Artifical Intelligence course 
                       </ListItem>
                       <ListItem>
-                        Several programs written to manipulate graphs and
-                        matrices
+                        Computes and displays step-by-step solution to any puzzle
                       </ListItem>
                       <ListItem>
-                        Overall program verifies a computationally complex proof
+                        Users can choose from 5 pre-made boards or make their own
                       </ListItem>
                     </UnorderedList>
                   </Text>
