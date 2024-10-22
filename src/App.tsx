@@ -447,16 +447,16 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
-                          src="https://i.imgur.com/G5KAURb.png"
-                          alt="SQL Server logo"
+                          src="https://i.imgur.com/f9KWi6O.png"
+                          alt="SQL logo"
                         ></Image>
                         &nbsp;
-                        <Text>SQL Server</Text>
+                        <Text>SQL</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
@@ -465,7 +465,7 @@ function App() {
                         &nbsp;
                         <Text>Python</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
@@ -484,7 +484,27 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="20%">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/G5KAURb.png"
+                          alt="SQL Server logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>SQL Server</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/Cv1YjAP.png"
+                          alt="Azure logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Microsoft Azure</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/EcnuiEo.png"
@@ -492,6 +512,15 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>Teaching</Text>{" "}
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
                       </Center>
                     </Flex>
                   </Text>
@@ -698,6 +727,25 @@ function App() {
                 <Divider mx="5" w="100%" borderColor="#bbb" />
                 <Box>
                   <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/EcnuiEo.png"
+                          alt="apple icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Teaching</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
                     Overview
                   </Heading>
                   <Text pt="2" mx="2" fontSize="sm">
@@ -774,7 +822,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
@@ -783,7 +831,7 @@ function App() {
                         &nbsp;
                         <Text>TypeScript</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
@@ -792,7 +840,7 @@ function App() {
                         &nbsp;
                         <Text>React</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/Wo1XhiY.jpg"
@@ -811,7 +859,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -820,7 +868,7 @@ function App() {
                         &nbsp;
                         <Text>VSCode</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/sXdpGX7.png"
@@ -829,7 +877,7 @@ function App() {
                         &nbsp;
                         <Text>Git</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/5FK6NrD.png"
@@ -1007,13 +1055,16 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Final project for graduate-level Artifical Intelligence course 
+                        Final project for graduate-level Artifical Intelligence
+                        course
                       </ListItem>
                       <ListItem>
-                        Computes and displays step-by-step solution to any puzzle
+                        Computes and displays step-by-step solution to any
+                        puzzle
                       </ListItem>
                       <ListItem>
-                        Users can choose from 5 pre-made boards or make their own
+                        Users can choose from 5 pre-made boards or make their
+                        own
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -1069,7 +1120,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
@@ -1078,7 +1129,7 @@ function App() {
                         &nbsp;
                         <Text>TypeScript</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
@@ -1087,7 +1138,7 @@ function App() {
                         &nbsp;
                         <Text>React</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/Wo1XhiY.jpg"
@@ -1106,7 +1157,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -1115,7 +1166,7 @@ function App() {
                         &nbsp;
                         <Text>VSCode</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/sXdpGX7.png"
@@ -1124,7 +1175,7 @@ function App() {
                         &nbsp;
                         <Text>Git</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/5FK6NrD.png"
@@ -1368,7 +1419,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -1377,7 +1428,7 @@ function App() {
                         &nbsp;
                         <Text>VSCode</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/sXdpGX7.png"
@@ -1386,7 +1437,9 @@ function App() {
                         &nbsp;
                         <Text>Git</Text>
                       </Center>
-                      <Center w="25%">
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/5FK6NrD.png"
@@ -1394,6 +1447,15 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
                       </Center>
                     </Flex>
                   </Text>
@@ -1465,7 +1527,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
@@ -1474,7 +1536,7 @@ function App() {
                         &nbsp;
                         <Text>TypeScript</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
@@ -1483,7 +1545,7 @@ function App() {
                         &nbsp;
                         <Text>React</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/Wo1XhiY.jpg"
@@ -1502,7 +1564,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -1511,7 +1573,7 @@ function App() {
                         &nbsp;
                         <Text>VSCode</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/sXdpGX7.png"
@@ -1520,7 +1582,9 @@ function App() {
                         &nbsp;
                         <Text>Git</Text>
                       </Center>
-                      <Center w="25%">
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/5FK6NrD.png"
@@ -1528,6 +1592,15 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
                       </Center>
                     </Flex>
                   </Text>
@@ -1604,7 +1677,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
@@ -1613,7 +1686,7 @@ function App() {
                         &nbsp;
                         <Text>TypeScript</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
@@ -1622,7 +1695,7 @@ function App() {
                         &nbsp;
                         <Text>React</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/Wo1XhiY.jpg"
@@ -1641,7 +1714,7 @@ function App() {
                   </Heading>
                   <Text pt="1" fontSize="sm">
                     <Flex justifyContent="space-evenly" p="2">
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/4Qoczb0.png"
@@ -1650,7 +1723,7 @@ function App() {
                         &nbsp;
                         <Text>VSCode</Text>
                       </Center>
-                      <Center w="25%">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/sXdpGX7.png"
@@ -1659,7 +1732,9 @@ function App() {
                         &nbsp;
                         <Text>Git</Text>
                       </Center>
-                      <Center w="25%">
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
                         <Image
                           w="7"
                           src="https://i.imgur.com/5FK6NrD.png"
@@ -1667,6 +1742,15 @@ function App() {
                         ></Image>
                         &nbsp;
                         <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
                       </Center>
                     </Flex>
                   </Text>
@@ -1706,7 +1790,7 @@ function App() {
         </Heading>
         <Container fontSize="18px">
           <Text mb="10">
-            A sample of technical skills I've gained over the years
+            A sample of technical skills I've honed over the years
           </Text>
           <Container>
             <Grid
@@ -1732,6 +1816,60 @@ function App() {
                   alt=""
                 ></Image>
                 <Text mt="2">GitHub</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/EcnuiEo.png"
+                  alt="apple icon"
+                ></Image>
+                <Text mt="2">Teaching</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/dUGZcBR.png"
+                  alt="handshake icon"
+                ></Image>
+                <Text mt="2">Agile</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/G5KAURb.png"
+                  alt="SQL Server logo"
+                ></Image>
+                <Text mt="2">SQL Server</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/Cv1YjAP.png"
+                  alt="Azure logo"
+                ></Image>
+                <Text mt="2">Azure</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Globe_icon.svg/840px-Globe_icon.svg.png"
+                  alt="Research icon"
+                ></Image>
+                <Text mt="2">Research</Text>
+              </Container>
+              <Container>
+                <Image
+                  height="50px"
+                  margin="0 auto"
+                  src="https://i.imgur.com/41JfoQQ.png"
+                  alt="AI icon"
+                ></Image>
+                <Text mt="2">AI</Text>
               </Container>
               <Container>
                 <Image
