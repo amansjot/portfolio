@@ -880,7 +880,7 @@ function App() {
                           border="1px solid #aaa"
                           borderRadius="8px"
                           w="100%"
-                          src="https://i.imgur.com/vguplQF.png"
+                          src="https://i.imgur.com/k2PZIc5.png"
                           alt="Screenshot of Sudoku Solver"
                         ></Image>
                       </Center>
