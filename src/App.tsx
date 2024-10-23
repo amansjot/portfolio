@@ -1055,11 +1055,11 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Final project for graduate-level Artifical Intelligence
+                        Final project for graduate-level Artificial Intelligence
                         course
                       </ListItem>
                       <ListItem>
-                        Computes and displays step-by-step solution to any
+                        Computes and displays step-by-step solutions to any
                         puzzle
                       </ListItem>
                       <ListItem>
