@@ -1362,10 +1362,13 @@ function App() {
                   <Text pt="2" mx="6" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Developed a browser-based driving game with jQuery
+                        Programmed a full-fledged pet adoption web application
                       </ListItem>
                       <ListItem>
-                        Fully-functional game with multiple modes and challenges
+                        Ability to login with roles and view, add, and adopt pets
+                      </ListItem>
+                      <ListItem>
+                        Integrated with MongoDB Atlas to sync user interactions
                       </ListItem>
                     </UnorderedList>
                   </Text>
