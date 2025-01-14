@@ -1076,6 +1076,307 @@ function App() {
           <Card mb="7" boxShadow="0 0 3px">
             <CardHeader mb="-8">
               <Heading fontSize="26px" mb="2">
+                Parking Panic
+              </Heading>
+              <Text fontSize="14px">by Aman Singh and 4 others</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/NAIW7IR.png"
+                          alt="Screenshot of Parking Panic"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/amansjot/parking-panic"
+                        title="Parking Panic GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://amansjot.github.io/parking-panic/"
+                        title="Parking Panic Website"
+                        target="_blank"
+                      >
+                        Live Website <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                          alt="HTML logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>HTML</Text>
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>CSS</Text>{" "}
+                      </Center>
+                      <Center w="20%">
+                        <Image
+                          w="7"
+                          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+                          alt="JS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>JavaScript</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="6" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Developed a browser-based driving game with jQuery
+                      </ListItem>
+                      <ListItem>
+                        Fully-functional game with multiple modes and challenges
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
+                Furever Home
+              </Heading>
+              <Text fontSize="14px">by Aman Singh and 4 others</Text>
+            </CardHeader>
+            <CardBody>
+              <Stack spacing="4">
+                <Box>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center>
+                        <Image
+                          border="1px solid #aaa"
+                          borderRadius="8px"
+                          w="100%"
+                          src="https://i.imgur.com/9JYkSYa.png"
+                          alt="Screenshot of Furever Home"
+                        ></Image>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly">
+                      <Link
+                        href="https://github.com/UD-CISC474/project-3-angular-ui-project-group-8"
+                        title="Furever Home GitHub"
+                        target="_blank"
+                      >
+                        View Code <ExternalLinkIcon mt="-1" />
+                      </Link>
+                      <Link
+                        href="https://github.com/UD-CISC474/project-3-angular-ui-project-group-8"
+                        title="Furever Home Website"
+                        target="_blank"
+                      >
+                        Live Website (coming soon!) <ExternalLinkIcon mt="-1" />
+                      </Link>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Languages
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="30%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                          alt="HTML logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>HTML</Text>
+                      </Center>
+                      <Center w="30%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                          alt="CSS logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>SCSS</Text>{" "}
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="30%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/rLSFkKb.png"
+                          alt="Angular logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Angular</Text>{" "}
+                      </Center>
+                      <Center w="30%">
+                        <Image
+                          w="7"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
+                          alt="TypeScript logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>TypeScript</Text>
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Skills
+                  </Heading>
+                  <Text pt="1" fontSize="sm">
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/4Qoczb0.png"
+                          alt="VSCode logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>VSCode</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/sXdpGX7.png"
+                          alt="Git logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>Git</Text>
+                      </Center>
+                    </Flex>
+                    <Flex justifyContent="space-evenly" p="2">
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/5FK6NrD.png"
+                          alt="GitHub logo"
+                        ></Image>
+                        &nbsp;
+                        <Text>GitHub</Text>
+                      </Center>
+                      <Center w="35%">
+                        <Image
+                          w="7"
+                          src="https://i.imgur.com/dUGZcBR.png"
+                          alt="handshake icon"
+                        ></Image>
+                        &nbsp;
+                        <Text>Agile</Text>{" "}
+                      </Center>
+                    </Flex>
+                  </Text>
+                </Box>
+                <Divider mx="5" w="100%" borderColor="#bbb" />
+                <Box>
+                  <Heading size="xs" textTransform="uppercase">
+                    Overview
+                  </Heading>
+                  <Text pt="2" mx="6" fontSize="sm">
+                    <UnorderedList>
+                      <ListItem>
+                        Developed a browser-based driving game with jQuery
+                      </ListItem>
+                      <ListItem>
+                        Fully-functional game with multiple modes and challenges
+                      </ListItem>
+                    </UnorderedList>
+                  </Text>
+                </Box>
+              </Stack>
+            </CardBody>
+          </Card>
+
+          <Card mb="7" boxShadow="0 0 3px">
+            <CardHeader mb="-8">
+              <Heading fontSize="26px" mb="2">
                 Blue Hen Bodega
               </Heading>
               <Text fontSize="14px">by Aman Singh</Text>
@@ -1327,151 +1628,6 @@ function App() {
                       </ListItem>
                       <ListItem>
                         Overall program verifies a computationally complex proof
-                      </ListItem>
-                    </UnorderedList>
-                  </Text>
-                </Box>
-              </Stack>
-            </CardBody>
-          </Card>
-
-          <Card mb="7" boxShadow="0 0 3px">
-            <CardHeader mb="-8">
-              <Heading fontSize="26px" mb="2">
-                Parking Panic
-              </Heading>
-              <Text fontSize="14px">by Aman Singh and 4 others</Text>
-            </CardHeader>
-            <CardBody>
-              <Stack spacing="4">
-                <Box>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center>
-                        <Image
-                          border="1px solid #aaa"
-                          borderRadius="8px"
-                          w="100%"
-                          src="https://i.imgur.com/58ZyNqK.png"
-                          alt="Screenshot of Parking Panic"
-                        ></Image>
-                      </Center>
-                    </Flex>
-                    <Flex justifyContent="space-evenly">
-                      <Link
-                        href="https://github.com/amansjot/parking-panic"
-                        title="Parking Panic GitHub"
-                        target="_blank"
-                      >
-                        View Code <ExternalLinkIcon mt="-1" />
-                      </Link>
-                      <Link
-                        href="https://amansjot.github.io/parking-panic/"
-                        title="Parking Panic Website"
-                        target="_blank"
-                      >
-                        Live Website <ExternalLinkIcon mt="-1" />
-                      </Link>
-                    </Flex>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Languages
-                  </Heading>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center w="20%">
-                        <Image
-                          w="7"
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
-                          alt="HTML logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>HTML</Text>
-                      </Center>
-                      <Center w="20%">
-                        <Image
-                          w="7"
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-                          alt="CSS logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>CSS</Text>{" "}
-                      </Center>
-                      <Center w="20%">
-                        <Image
-                          w="7"
-                          src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
-                          alt="JS logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>JavaScript</Text>{" "}
-                      </Center>
-                    </Flex>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Skills
-                  </Heading>
-                  <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/4Qoczb0.png"
-                          alt="VSCode logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>VSCode</Text>
-                      </Center>
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/sXdpGX7.png"
-                          alt="Git logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>Git</Text>
-                      </Center>
-                    </Flex>
-                    <Flex justifyContent="space-evenly" p="2">
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/5FK6NrD.png"
-                          alt="GitHub logo"
-                        ></Image>
-                        &nbsp;
-                        <Text>GitHub</Text>
-                      </Center>
-                      <Center w="35%">
-                        <Image
-                          w="7"
-                          src="https://i.imgur.com/dUGZcBR.png"
-                          alt="handshake icon"
-                        ></Image>
-                        &nbsp;
-                        <Text>Agile</Text>{" "}
-                      </Center>
-                    </Flex>
-                  </Text>
-                </Box>
-                <Divider mx="5" w="100%" borderColor="#bbb" />
-                <Box>
-                  <Heading size="xs" textTransform="uppercase">
-                    Overview
-                  </Heading>
-                  <Text pt="2" mx="6" fontSize="sm">
-                    <UnorderedList>
-                      <ListItem>
-                        Developed a driving game with static web technologies
-                      </ListItem>
-                      <ListItem>
-                        Fully-functional game with multiple modes and challenges
                       </ListItem>
                     </UnorderedList>
                   </Text>
