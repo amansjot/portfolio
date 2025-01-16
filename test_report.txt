@@ -43,7 +43,7 @@
         at ChakraComponent (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/system/dist/index.js:228:71)
         at Container2 (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/layout/dist/index.js:232:52)
         at div
-        at App
+        at App (/home/runner/work/portfolio/portfolio/src/App.tsx:36:52)
 
       4 |
       5 | test('renders learn react link', () => {
@@ -111,7 +111,7 @@
         at ChakraComponent (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/system/dist/index.js:228:71)
         at Container2 (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/layout/dist/index.js:232:52)
         at div
-        at App
+        at App (/home/runner/work/portfolio/portfolio/src/App.tsx:36:52)
 
       4 |
       5 | test('renders learn react link', () => {
@@ -177,7 +177,7 @@
         at ChakraComponent (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/system/dist/index.js:228:71)
         at Container2 (/home/runner/work/portfolio/portfolio/node_modules/@chakra-ui/layout/dist/index.js:232:52)
         at div
-        at App
+        at App (/home/runner/work/portfolio/portfolio/src/App.tsx:36:52)
 
       4 |
       5 | test('renders learn react link', () => {
@@ -209,7 +209,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (587 ms)
+  ✕ renders learn react link (601 ms)
 
   ● renders learn react link
 
@@ -222,7 +222,7 @@ FAIL src/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<nav[39m
-            [33mclass[39m=[32m"chakra-stack css-zd2o3i"[39m
+            [33mclass[39m=[32m"chakra-stack css-us1bca"[39m
           [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"chakra-stack css-84zodg"[39m
@@ -240,7 +240,7 @@ FAIL src/App.test.tsx
               [36m</h2>[39m
             [36m</div>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"navLinks css-wly42z"[39m
+              [33mclass[39m=[32m"navLinks css-xf9tc1"[39m
             [36m>[39m
               [36m<a[39m
                 [33mclass[39m=[32m"chakra-link css-0"[39m
@@ -267,9 +267,64 @@ FAIL src/App.test.tsx
                 [0mSkills[0m
               [36m</a>[39m
               [36m<a[39m
-                [33mclass[39m=[32m"chakra-link css-8er82g"[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
                 [33mhref[39m=[32m"#resume"[39m
                 [33mid[39m=[32m"resumeLink"[39m
+                [33mtarget[39m=[32m"_self"[39m
+              [36m>[39m
+                [0mResume[0m
+              [36m</a>[39m
+            [36m</div>[39m
+            [36m<button[39m
+              [33maria-label[39m=[32m"Open Menu"[39m
+              [33mclass[39m=[32m"chakra-button hamburger css-1oyoswl"[39m
+              [33mid[39m=[32m"mobileNavIcon"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"chakra-icon css-onkibi"[39m
+                [33mfocusable[39m=[32m"false"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"[39m
+                  [33mfill[39m=[32m"currentColor"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</button>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"chakra-stack css-10y1eu6"[39m
+              [33mid[39m=[32m"mobileMenu"[39m
+              [33mstyle[39m=[32m"max-height: 0px;"[39m
+            [36m>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#about"[39m
+              [36m>[39m
+                [0mAbout Me[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#experience"[39m
+              [36m>[39m
+                [0mExperience[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#projects"[39m
+              [36m>[39m
+                [0mProjects[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#skills"[39m
+              [36m>[39m
+                [0mSkills[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"chakra-link css-0"[39m
+                [33mhref[39m=[32m"#resume"[39m
                 [33mtarget[39m=[32m"_self"[39m
               [36m>[39m
                 [0mResume[0m
@@ -341,60 +396,7 @@ FAIL src/App.test.tsx
                 [33mclass[39m=[32m"chakra-stack css-zsoya5"[39m
               [36m>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"chakra-stack aboutCard leftAligned css-uqhqx0"[39m
-                [36m>[39m
-                  [36m<div>[39m
-                    [36m<h2[39m
-                      [33mclass[39m=[32m"chakra-heading css-1hy3xpg"[39m
-                    [36m>[39m
-                      [0mI'm a[0m
-                      [0m [0m
-                      [36m<span[39m
-                        [33mclass[39m=[32m"chakra-text css-zov4ca"[39m
-                      [36m>[39m
-                        [0mlearner[0m
-                      [36m</span>[39m
-                      [0m.[0m
-                    [36m</h2>[39m
-                    [36m<p>[39m
-                      [0mI am a fourth-year student the University of Delaware pursuing a Bachelor's of Computer Science and minoring in Mathematics and Linguistics (2021 - present).[0m
-                    [36m</p>[39m
-                  [36m</div>[39m
-                  [36m<img[39m
-                    [33malt[39m=[32m"UD logo"[39m
-                    [33mclass[39m=[32m"chakra-image css-88h566"[39m
-                    [33msrc[39m=[32m"https://i.imgur.com/4Ekoxl6.png"[39m
-                  [36m/>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"chakra-stack__divider css-17rehbt"[39m
-                [36m/>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"chakra-stack aboutCard rightAligned css-1s0piao"[39m
-                [36m>[39m
-                  [36m<img[39m
-                    [33malt[39m=[32m"Wyzant logo"[39m
-                    [33mclass[39m=[32m"chakra-image css-88h566"[39m
-                    [33msrc[39m=[32m"https://i.imgur.com/eatPtCx.png"[39m
-                  [36m/>[39m
-                  [36m<div>[39m
-                    [36m<h2[39m
-                      [33mclass[39m=[32m"chakra-heading css-1hy3xpg"[39m
-                    [36m>[39m
-                      [0mI'm a[0m
-                      [0m [0m
-                      [36m<span[39m
-                        [33mclass[39m=[32m"chakra-text css-1yniq95"[39m
-                      [36m>[39m
-                        [0mteacher[0m
-                      [36m</span>[39m
-                      [0m.[0m
-                    [36m</h2>[39m
-                    [36m<p>[39m
-                      [0mAs a [0m
-                      [36m<b>[39m
-                        [0mcertified tutor[0m
-                      [36m</b>[...
+                  [33mclass[39m=[32m"chakra-stack aboutCard leftAligned c...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -414,16 +416,16 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
---------------------|---------|----------|---------|---------|-------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------|---------|----------|---------|---------|-------------------
-All files           |      32 |    16.66 |      20 |      32 |                   
- App.tsx            |   57.14 |       50 |      25 |   57.14 | 46-47,105-2180    
- index.tsx          |       0 |      100 |     100 |       0 | 8-22              
- reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
---------------------|---------|----------|---------|---------|-------------------
+--------------------|---------|----------|---------|---------|---------------------
+File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s   
+--------------------|---------|----------|---------|---------|---------------------
+All files           |   41.66 |    27.77 |   28.57 |   41.66 |                     
+ App.tsx            |      60 |    35.71 |   33.33 |      60 | 42-43,68-69,94-2266 
+ index.tsx          |       0 |      100 |     100 |       0 | 8-22                
+ reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10                
+--------------------|---------|----------|---------|---------|---------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.818 s
+Time:        3.87 s
 Ran all test suites.
