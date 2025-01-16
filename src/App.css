@@ -123,6 +123,11 @@ span {
         margin-top: 25px !important;
     }
 
+    .iconListing {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+
     #social {
         bottom: 5px !important;
         left: 5px !important;
