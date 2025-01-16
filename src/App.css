@@ -98,6 +98,26 @@ span {
     .aboutCard img {
         margin-top: 25px !important;
     }
+
+    #social {
+        bottom: 5px !important;
+        left: 5px !important;
+    }
+
+    #social #socialFlex {
+        flex-direction: column !important;
+        gap: 5px;
+    }
+
+    #social button {
+        width: 45px !important;
+        height: 45px !important;
+        margin-right: 2px !important;
+    }
+
+    #social button svg {
+        font-size: 28px !important;
+    }
 }
 
 .skillgrid div {

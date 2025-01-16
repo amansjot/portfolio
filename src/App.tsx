@@ -2146,8 +2146,8 @@ function App() {
       </Container>
 
       {/* Social Links */}
-      <HStack position="fixed" bottom="35px" left="35px">
-        <Center>
+      <HStack position="fixed" bottom="35px" left="35px" id="social">
+        <Center id="socialFlex">
           <IconButton
             onClick={() => window.open("https://github.com/amansjot")}
             className="iconButton"
