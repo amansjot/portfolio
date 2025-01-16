@@ -116,7 +116,8 @@ function App() {
         pt="150"
         id="about"
         className="section"
-        minWidth="800px"
+        w="100%"
+        maxW="800px"
         pb="150px"
       >
         <Heading size="xl" mb="10">
@@ -138,8 +139,9 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I currently attend the University of Delaware as a third-year
-                  student majoring in Computer Science B.S. (2021 - present).
+                  I am a fourth-year student the University of Delaware pursuing
+                  a Bachelor's of Computer Science and minoring in Mathematics
+                  and Linguistics (2021 - present).
                 </p>
               </div>
               <Image
@@ -165,9 +167,10 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  As a <b>certified tutor</b> on Wyzant, I hold in-person and
-                  online Computer Science lessons for students of all ages and
-                  knowledge levels (2021 - present).
+                  As a <b>certified tutor</b> on Wyzant (2021 - present), I hold
+                  in-person and online lessons in Computer Science for students
+                  of all ages and experiences. I specialize in assignments,
+                  personal projects, and general guidance.
                 </p>
               </div>
             </HStack>
@@ -181,9 +184,10 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I am an active participant and <b>Project Coordinator</b> of
-                  the CS + Social Good chapter at my university (2023 -
-                  present).
+                  I am <b>Co-President</b> of the Computer Science + Social Good
+                  chapter at my university (2023 - present). I organize local
+                  service and teaching events as well as leading the development
+                  of a project to serve the community.
                 </p>
               </div>
               <Image
@@ -219,22 +223,22 @@ function App() {
               <div>
                 <Heading fontSize="26px" mb="2">
                   I'm a{" "}
-                  <Text as="span" color="blue.500">
+                  <Text as="span" color="orange.500">
                     creator
                   </Text>
                   .
                 </Heading>
                 <p>
-                  I have created multiple websites and programs (detailed&nbsp;
+                  While I'm not creating &nbsp;
                   <Link color="blue" href="#projects" rel="noreferrer">
-                    below
+                    websites and programs
                   </Link>
-                  ). Additionally, I enjoy creating origami models in my free
-                  time. One such creation is shown, and my entire origami
-                  collection can be found{" "}
+                  , I like to spend my free time crafting origami models,
+                  solving jigsaw puzzles, and creating arts and crafts. My
+                  creative collection can be found{" "}
                   <Link
                     color="blue"
-                    href="//flic.kr/s/aHBqjAHFSA"
+                    href="https://www.flickr.com/photos/amanjs/albums/"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -250,7 +254,7 @@ function App() {
                 src="https://live.staticflickr.com/65535/52973061053_d2dfe13e60_b.jpg"
               />
             </HStack>
-            <HStack textAlign="right">
+            {/* <HStack textAlign="right">
               <Image
                 alt="HenHacks"
                 h="150px"
@@ -259,7 +263,7 @@ function App() {
               <div>
                 <Heading fontSize="26px" mb="2">
                   I'm a{" "}
-                  <Text as="span" color="orange.500">
+                  <Text as="span" color="blue.500">
                     researcher
                   </Text>
                   .
@@ -270,7 +274,7 @@ function App() {
                   University of Delaware.
                 </p>
               </div>
-            </HStack>
+            </HStack> */}
           </VStack>
         </Container>
       </Container>
@@ -1365,7 +1369,8 @@ function App() {
                         Programmed a full-fledged pet adoption web application
                       </ListItem>
                       <ListItem>
-                        Ability to login with roles and view, add, and adopt pets
+                        Ability to login with roles and view, add, and adopt
+                        pets
                       </ListItem>
                       <ListItem>
                         Integrated with MongoDB Atlas to sync user interactions
@@ -1943,7 +1948,14 @@ function App() {
       </Container>
 
       {/* Skills */}
-      <Container p="10" pt="150" id="skills" className="section">
+      <Container
+        pb="10"
+        pt="150"
+        id="skills"
+        w="100%"
+        maxW="800px"
+        className="section"
+      >
         <Heading size="xl" mb="10">
           My Skills
         </Heading>
@@ -1953,10 +1965,11 @@ function App() {
           </Text>
           <Container>
             <Grid
-              templateColumns="repeat(3, 1fr)"
+              gridTemplateColumns="repeat(3, 1fr)"
               rowGap={12}
               columnGap={6}
               fontSize="16px"
+              className="skillgrid"
             >
               <Container>
                 <Image

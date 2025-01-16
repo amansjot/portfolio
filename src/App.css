@@ -76,3 +76,16 @@
 span {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .skillgrid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    #about img {
+        display: none;
+    }
+}
+
+.skillgrid div {
+    padding: 0 !important;
+}
