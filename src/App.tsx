@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import {
@@ -22,15 +22,37 @@ import {
   UnorderedList,
   ListItem,
   Grid,
+  useDisclosure,
 } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { ExternalLinkIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { motion } from "framer-motion";
 
 function App() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const MotionVStack = motion(VStack);
+
+  useEffect(() => {
+    const handleResize = () => {
+      // Close the menu if the screen width exceeds the mobile breakpoint (768px for md)
+      if (window.innerWidth >= 768 && isOpen) {
+        onClose();
+      }
+    };
+
+    // Add the event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [isOpen, onClose]);
+
   function getAge() {
     var date = new Date(2003, 6, 1);
     var now = new Date();
@@ -52,12 +74,11 @@ function App() {
     <div className="App">
       {/* navbar */}
       <HStack
-        as={"nav"}
+        as="nav"
         p={6}
         position="fixed"
         top="0"
-        w="95%"
-        mx="2.5%"
+        w="100%"
         bg="#b4e7e4"
         color="black"
         borderBottom="2px solid black"
@@ -65,25 +86,90 @@ function App() {
         boxShadow="0 4px 4px -4px #555"
         zIndex="999"
       >
+        {/* Logo and Name */}
         <HStack>
-          {/* <img src={logo} width="50" alt="Clapboard Logo" /> */}
           <Heading size="lg" pl={2}>
-            <Link onClick={removeHash} href="#top" id="topName">
+            <Link
+              onClick={() => {
+                onClose();
+                window.location.hash = "";
+              }}
+              href="#top"
+              id="topName"
+            >
               # Aman Singh
             </Link>
           </Heading>
         </HStack>
-        <Flex className="navLinks" justifyContent="space-between" w="38%">
+
+        {/* Desktop Links */}
+        <Flex
+          className="navLinks"
+          display={{ base: "none", lg: "flex" }}
+          justifyContent="space-between"
+          w="550px"
+        >
           <Link href="#about">About Me</Link>
           <Link href="#experience">Experience</Link>
           <Link href="#projects">Projects</Link>
           <Link href="#skills">Skills</Link>
-          <Link href="#resume" target="_self" mr="3" id="resumeLink">
-            {/* replace href="resume102024.pdf" target="_self" */}
+          <Link href="#resume" target="_self" id="resumeLink">
             Resume
-            {/* <ExternalLinkIcon mt="-1" ml="2" /> */}
           </Link>
         </Flex>
+
+        {/* Mobile Menu Button */}
+        <IconButton
+          id="mobileNavIcon"
+          className={isOpen ? "close" : "hamburger"}
+          display={{ base: "flex", lg: "none" }}
+          icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+          aria-label="Open Menu"
+          onClick={isOpen ? onClose : onOpen}
+          variant="ghost"
+          color="black"
+        />
+
+        {/* Mobile Menu */}
+        {/* Mobile Menu */}
+        <MotionVStack
+          id="mobileMenu"
+          initial={{ maxHeight: 0 }}
+          animate={
+            isOpen
+              ? { maxHeight: "450px" }
+              : { maxHeight: 0 }
+          }
+          transition={{ duration: 0.5 }}
+          pos="absolute"
+          top="100%"
+          left="0"
+          w="100%"
+          bg="#b4e7e4"
+          color="black"
+          borderBottom="2px solid black"
+          boxShadow="0 4px 4px -4px #555"
+          zIndex="998"
+          overflow="hidden"
+          spacing={4}
+          py={4}
+        >
+          <Link href="#about" onClick={onClose}>
+            About Me
+          </Link>
+          <Link href="#experience" onClick={onClose}>
+            Experience
+          </Link>
+          <Link href="#projects" onClick={onClose}>
+            Projects
+          </Link>
+          <Link href="#skills" onClick={onClose}>
+            Skills
+          </Link>
+          <Link href="#resume" target="_self" onClick={onClose}>
+            Resume
+          </Link>
+        </MotionVStack>
       </HStack>
 
       {/* Home */}

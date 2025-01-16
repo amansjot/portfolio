@@ -17,12 +17,36 @@
 .navLinks a {
     border-bottom: 1px solid transparent;
     padding: 8px 6px;
+    margin-right: 20px;
 }
 
 .navLinks a:hover {
     text-decoration: none;
     border-bottom: 1px solid black;
     /* color: #91fff2; */
+}
+
+#mobileNavIcon:hover {
+    background-color: transparent;
+}
+
+#mobileNavIcon.hamburger svg {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+#mobileMenu {
+    margin-left: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#mobileMenu a {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 20px !important;
+    border-top: 1px dashed black !important;
+    margin-top: 0;
 }
 
 #resumeLink,
