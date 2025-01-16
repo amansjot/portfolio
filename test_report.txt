@@ -209,7 +209,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (551 ms)
+  ✕ renders learn react link (566 ms)
 
   ● renders learn react link
 
@@ -326,7 +326,7 @@ FAIL src/App.test.tsx
             [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"chakra-container section css-bzob6d"[39m
+            [33mclass[39m=[32m"chakra-container section css-7qikf8"[39m
             [33mid[39m=[32m"about"[39m
           [36m>[39m
             [36m<h2[39m
@@ -357,7 +357,7 @@ FAIL src/App.test.tsx
                       [0m.[0m
                     [36m</h2>[39m
                     [36m<p>[39m
-                      [0mI currently attend the University of Delaware as a third-year student majoring in Computer Science B.S. (2021 - present).[0m
+                      [0mI am a fourth-year student the University of Delaware pursuing a Bachelor's of Computer Science and minoring in Mathematics and Linguistics (2021 - present).[0m
                     [36m</p>[39m
                   [36m</div>[39m
                   [36m<img[39m
@@ -395,7 +395,7 @@ FAIL src/App.test.tsx
                       [36m<b>[39m
                         [0mcertified tutor[0m
                       [36m</b>[39m
-                      [0m on Wyzant, I hold in-person and online Computer Scienc...
+                      [0m on Wyzant (2021 - ...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -419,12 +419,12 @@ FAIL src/App.test.tsx
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
 All files           |      32 |    16.66 |      20 |      32 |                   
- App.tsx            |   57.14 |       50 |      25 |   57.14 | 46-47,105-2167    
+ App.tsx            |   57.14 |       50 |      25 |   57.14 | 46-47,105-2180    
  index.tsx          |       0 |      100 |     100 |       0 | 8-22              
  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
 --------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.555 s
+Time:        3.688 s
 Ran all test suites.
