@@ -129,7 +129,7 @@ function App() {
             spacing={10}
             align="stretch"
           >
-            <HStack textAlign="left">
+            <HStack textAlign="left" className="aboutCard leftAligned">
               <div>
                 <Heading fontSize="26px" mb="2">
                   I'm a{" "}
@@ -151,7 +151,7 @@ function App() {
                 src="https://i.imgur.com/4Ekoxl6.png"
               />
             </HStack>
-            <HStack textAlign="right">
+            <HStack textAlign="right" className="aboutCard rightAligned">
               <Image
                 alt="Wyzant logo"
                 h="120px"
@@ -174,7 +174,7 @@ function App() {
                 </p>
               </div>
             </HStack>
-            <HStack textAlign="left">
+            <HStack textAlign="left" className="aboutCard leftAligned">
               <div>
                 <Heading fontSize="26px" mb="2">
                   I'm a{" "}
@@ -197,7 +197,7 @@ function App() {
                 src="https://avatars.githubusercontent.com/u/47543665?s=200&v=4"
               />
             </HStack>
-            <HStack textAlign="right">
+            <HStack textAlign="right" className="aboutCard rightAligned">
               <Image
                 alt="HenHacks"
                 h="120px"
@@ -219,7 +219,7 @@ function App() {
                 </p>
               </div>
             </HStack>
-            <HStack textAlign="left">
+            <HStack textAlign="left" className="aboutCard leftAligned">
               <div>
                 <Heading fontSize="26px" mb="2">
                   I'm a{" "}
@@ -254,7 +254,7 @@ function App() {
                 src="https://live.staticflickr.com/65535/52973061053_d2dfe13e60_b.jpg"
               />
             </HStack>
-            {/* <HStack textAlign="right">
+            {/* <HStack textAlign="right" className="aboutCard rightAligned">
               <Image
                 alt="HenHacks"
                 h="150px"

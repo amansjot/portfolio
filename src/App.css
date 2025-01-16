@@ -81,8 +81,22 @@ span {
     .skillgrid {
         grid-template-columns: repeat(2, 1fr) !important;
     }
-    #about img {
-        display: none;
+
+    .aboutCard {
+        text-align: center !important;
+        flex-direction: column !important;
+    }
+
+    .aboutCard.rightAligned {
+        flex-direction: column-reverse !important;
+    }
+
+    .aboutCard h2 {
+        margin-bottom: 25px !important;
+    }
+
+    .aboutCard img {
+        margin-top: 25px !important;
     }
 }
 
