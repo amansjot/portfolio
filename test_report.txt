@@ -209,7 +209,7 @@
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (566 ms)
+  ✕ renders learn react link (547 ms)
 
   ● renders learn react link
 
@@ -341,7 +341,7 @@ FAIL src/App.test.tsx
                 [33mclass[39m=[32m"chakra-stack css-zsoya5"[39m
               [36m>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"chakra-stack css-uqhqx0"[39m
+                  [33mclass[39m=[32m"chakra-stack aboutCard leftAligned css-uqhqx0"[39m
                 [36m>[39m
                   [36m<div>[39m
                     [36m<h2[39m
@@ -370,7 +370,7 @@ FAIL src/App.test.tsx
                   [33mclass[39m=[32m"chakra-stack__divider css-17rehbt"[39m
                 [36m/>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"chakra-stack css-1s0piao"[39m
+                  [33mclass[39m=[32m"chakra-stack aboutCard rightAligned css-1s0piao"[39m
                 [36m>[39m
                   [36m<img[39m
                     [33malt[39m=[32m"Wyzant logo"[39m
@@ -394,8 +394,7 @@ FAIL src/App.test.tsx
                       [0mAs a [0m
                       [36m<b>[39m
                         [0mcertified tutor[0m
-                      [36m</b>[39m
-                      [0m on Wyzant (2021 - ...
+                      [36m</b>[...
 
        5 | test('renders learn react link', () => {
        6 |   render(<App />);
@@ -426,5 +425,5 @@ All files           |      32 |    16.66 |      20 |      32 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.688 s
+Time:        3.764 s
 Ran all test suites.
