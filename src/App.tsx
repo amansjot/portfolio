@@ -2445,7 +2445,7 @@ function App() {
         <br />
         <Container>
           <Link
-            href="resume102024.pdf"
+            href="resume2025.pdf"
             _hover={{ textDecoration: "none" }}
             target="_blank"
             mr="3"
@@ -2456,7 +2456,7 @@ function App() {
           </Link>
           <Center mt="8">
             <Image
-              src="resume102024.png"
+              src="resume2025.png"
               alt="Resume"
               border="1px solid black"
             />
