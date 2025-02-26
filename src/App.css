@@ -128,13 +128,18 @@ span {
         gap: 1rem !important;
     }
 
+    #social #socialFlex {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 1000px) {
     #social {
         bottom: 5px !important;
         left: 5px !important;
     }
 
     #social #socialFlex {
-        flex-direction: column !important;
         gap: 5px;
     }
 
