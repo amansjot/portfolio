@@ -135,11 +135,7 @@ function App() {
         <MotionVStack
           id="mobileMenu"
           initial={{ maxHeight: 0 }}
-          animate={
-            isOpen
-              ? { maxHeight: "450px" }
-              : { maxHeight: 0 }
-          }
+          animate={isOpen ? { maxHeight: "450px" } : { maxHeight: 0 }}
           transition={{ duration: 0.5 }}
           pos="absolute"
           top="100%"
@@ -401,7 +397,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -430,7 +431,12 @@ function App() {
                         <Text>JavaScript</Text>{" "}
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -467,7 +473,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -536,7 +547,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -573,7 +589,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -593,7 +614,12 @@ function App() {
                         <Text>Microsoft Azure</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -623,16 +649,14 @@ function App() {
                   <Text pt="2" mx="7" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Teach students about Computer Science topics
+                        Migrated multiple databases to increase efficiency
                       </ListItem>
                       <ListItem>
-                        Help with projects and homework (online and in-person)
+                        Designed an internal tool that streamlined data analysis
                       </ListItem>
                       <ListItem>
-                        Prepare frequent lessons for each student
-                      </ListItem>
-                      <ListItem>
-                        Motivate students to achieve their educational goals
+                        Collaborated daily on a team to practice agile
+                        development
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -671,7 +695,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -690,7 +719,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -719,7 +753,12 @@ function App() {
                         <Text>Research</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -755,10 +794,6 @@ function App() {
                       <ListItem>
                         Verified a computationally complex mathematical proof in
                         Python
-                      </ListItem>
-                      <ListItem>
-                        Developed the solution around specifications from a
-                        professor
                       </ListItem>
                       <ListItem>
                         Showcased the results via a poster at a research
@@ -801,7 +836,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -820,7 +860,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -876,7 +921,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -887,7 +937,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/portfolio"
                         title="Portfolio - GitHub"
@@ -911,7 +965,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -948,7 +1007,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1012,7 +1076,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1023,7 +1092,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/sudoku-solver"
                         title="Sudoku Solver - GitHub"
@@ -1047,7 +1120,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -1067,7 +1145,12 @@ function App() {
                         <Text>HTML</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -1095,7 +1178,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1115,7 +1203,12 @@ function App() {
                         <Text>AI</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1174,7 +1267,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1185,7 +1283,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/parking-panic"
                         title="Parking Panic GitHub"
@@ -1209,7 +1311,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -1246,7 +1353,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1266,7 +1378,12 @@ function App() {
                         <Text>Git</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1319,7 +1436,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1330,7 +1452,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/UD-CISC474/project-3-angular-ui-project-group-8"
                         title="Furever Home GitHub"
@@ -1354,7 +1480,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="30%">
                         <Image
                           w="7"
@@ -1374,7 +1505,12 @@ function App() {
                         <Text>SCSS</Text>{" "}
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="30%">
                         <Image
                           w="7"
@@ -1402,7 +1538,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1422,7 +1563,12 @@ function App() {
                         <Text>Git</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1479,7 +1625,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1490,7 +1641,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/delivery-app-deloitte"
                         title="Blue Hen Bodega - GitHub"
@@ -1514,7 +1669,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1551,7 +1711,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1619,7 +1784,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1645,7 +1815,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="20%">
                         <Image
                           w="7"
@@ -1664,7 +1839,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1684,7 +1864,12 @@ function App() {
                         <Text>Shell Scripting</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1741,7 +1926,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1752,7 +1942,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/HAKSafety"
                         title="HAKSafety - GitHub"
@@ -1776,7 +1970,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1813,7 +2012,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1833,7 +2037,12 @@ function App() {
                         <Text>Git</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1891,7 +2100,12 @@ function App() {
               <Stack spacing="4">
                 <Box>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center>
                         <Image
                           border="1px solid #aaa"
@@ -1902,7 +2116,11 @@ function App() {
                         ></Image>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                    >
                       <Link
                         href="https://github.com/amansjot/Team5-MoviePedia"
                         title="MoviePedia - GitHub"
@@ -1926,7 +2144,12 @@ function App() {
                     Languages
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1963,7 +2186,12 @@ function App() {
                     Skills
                   </Heading>
                   <Text pt="1" fontSize="sm">
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
@@ -1983,7 +2211,12 @@ function App() {
                         <Text>Git</Text>
                       </Center>
                     </Flex>
-                    <Flex justifyContent="space-evenly" alignItems="center" className="iconListing" p="2">
+                    <Flex
+                      justifyContent="space-evenly"
+                      alignItems="center"
+                      className="iconListing"
+                      p="2"
+                    >
                       <Center w="35%">
                         <Image
                           w="7"
