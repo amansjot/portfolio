@@ -72,14 +72,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* navbar */}
+      {/* Navbar */}
       <HStack
         as="nav"
         p={6}
         position="fixed"
         top="0"
         w="100%"
-        bg="#b4e7e4"
+        bg="#cfe0e3"
         color="black"
         borderBottom="2px solid black"
         justify="space-between"
@@ -131,7 +131,6 @@ function App() {
         />
 
         {/* Mobile Menu */}
-        {/* Mobile Menu */}
         <MotionVStack
           id="mobileMenu"
           initial={{ maxHeight: 0 }}
@@ -141,7 +140,7 @@ function App() {
           top="100%"
           left="0"
           w="100%"
-          bg="#b4e7e4"
+          bg="#cfe0e3"
           color="black"
           borderBottom="2px solid black"
           boxShadow="0 4px 4px -4px #555"
@@ -172,7 +171,7 @@ function App() {
       <Container id="top" p="10" pt="150" className="section">
         <Heading size="xl">Hi! I'm Aman.</Heading>
         <Center py="10">
-          <img id="mainPhoto" src="headshot.jpg" alt="Me" />
+          <img id="mainPhoto" src="headshot2.png" alt="Me" />
         </Center>
         <Container fontSize="20px">
           I'm a {getAge()}-year-old student at the University of Delaware, and I

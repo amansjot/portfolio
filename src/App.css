@@ -1,6 +1,6 @@
 .App {
     text-align: center;
-    background-color: #b4e7e4;
+    background-color: #cfe0e3;
 }
 
 #topName:hover {
@@ -12,6 +12,7 @@
     height: 200px;
     border-radius: 50%;
     border: 3px solid black;
+    transform: rotate(1deg);
 }
 
 .navLinks a {
