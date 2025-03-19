@@ -1306,7 +1306,7 @@ function App() {
                       className="iconListing"
                     >
                       <Link
-                        href="https://github.com/UD-CISC474/project-3-angular-ui-project-group-8"
+                        href="https://github.com/amansjot/furever-home"
                         title="Furever Home GitHub"
                         target="_blank"
                       >
@@ -1640,7 +1640,7 @@ function App() {
               <Heading fontSize="26px" mb="2">
                 Care o'Clock
               </Heading>
-              <Text fontSize="14px">by Aman Singh + 3 others</Text>
+              <Text fontSize="14px">by Aman Singh and 3 others</Text>
             </CardHeader>
             <CardBody>
               <Stack spacing="4">
