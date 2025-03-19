@@ -220,9 +220,10 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I am a fourth-year student the University of Delaware graduating in May with 
-                  a Bachelor of Computer Science (Aug 2021 - present). I am pursuing a Master's
-                  in Computer Science, graduating in December 2025.
+                  I am a fourth-year student the University of Delaware
+                  graduating in May with a Bachelor of Computer Science (Aug
+                  2021 - present). I am pursuing a Master's in Computer Science,
+                  graduating in December 2025.
                 </p>
               </div>
               <Image
@@ -283,7 +284,7 @@ function App() {
                 alt="HenHacks"
                 h="120px"
                 boxShadow="0 0 4px"
-                src="https://i.imgur.com/Bjiik1k.png"
+                src="https://i.imgur.com/XcPi1F8.png"
               />
               <div>
                 <Heading fontSize="26px" mb="2">
@@ -294,9 +295,26 @@ function App() {
                   .
                 </Heading>
                 <p>
-                  I enjoy competing in hackathons, and I recently earned{" "}
-                  <b>1st place</b> in the M&T-sponspored Best Community Hack for
-                  the HenHacks 2023 Hackathon at the University of Delaware.
+                  I enjoy competing in hackathons, and I have recently placed in
+                  the{" "}
+                  <Link
+                    color="blue.500"
+                    rel="noreferrer"
+                    href="https://devpost.com/software/haksafety"
+                    target="_blank"
+                  >
+                    HenHacks 2023 (1st)
+                  </Link>
+                  , DS+AI 2023 (Top 4), and{" "}
+                  <Link
+                    color="blue.500"
+                    rel="noreferrer"
+                    href="https://devpost.com/software/care-o-clock"
+                    target="_blank"
+                  >
+                    HenHacks 2025 (2nd)
+                  </Link>
+                  .
                 </p>
               </div>
             </HStack>
@@ -1299,7 +1317,8 @@ function App() {
                         title="Furever Home Website"
                         target="_blank"
                       >
-                        Live Website<ExternalLinkIcon mt="-1" />
+                        Live Website
+                        <ExternalLinkIcon mt="-1" />
                       </Link>
                     </Flex>
                   </Text>
@@ -1782,7 +1801,8 @@ function App() {
                   <Text pt="2" mx="4" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        <b>Won 2nd place</b> at HenHacks 2025 for Health and Wellness
+                        <b>Won 2nd place</b> at HenHacks 2025 for Health and
+                        Wellness
                       </ListItem>
                       <ListItem>
                         Multimodal voice-assisted health management application
@@ -1791,7 +1811,8 @@ function App() {
                         Helps manage appointments, reminders, and emergencies
                       </ListItem>
                       <ListItem>
-                        Saves user login and basic information in a secure database
+                        Saves user login and basic information in a secure
+                        database
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -2641,11 +2662,7 @@ function App() {
             <ExternalLinkIcon mt="-1" ml="2" />
           </Link>
           <Center mt="8">
-            <Image
-              src="resume2025.png"
-              alt="Resume"
-              border="1px solid black"
-            />
+            <Image src="resume2025.png" alt="Resume" border="1px solid black" />
           </Center>
         </Container>
       </Container>
