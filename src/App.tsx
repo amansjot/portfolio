@@ -1447,14 +1447,20 @@ function App() {
                   <Text pt="2" mx="6" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Programmed a fully working pet adoption web application
+                        Programmed a full-stack pet adoption web application
                       </ListItem>
                       <ListItem>
-                        Ability to login with roles and view, add, and adopt
+                        Responsive frontend to streamline adoption process
+                      </ListItem>
+                      <ListItem>
+                        Ability to log in with roles and view, add, and adopt
                         pets
                       </ListItem>
                       <ListItem>
-                        Integrated with MongoDB Atlas to sync user interactions
+                        Robust matching algorithm to connect users with pets
+                      </ListItem>
+                      <ListItem>
+                        Integrated with MongoDB for user and pet information
                       </ListItem>
                     </UnorderedList>
                   </Text>
@@ -1620,10 +1626,13 @@ function App() {
                   <Text pt="2" mx="6" fontSize="sm">
                     <UnorderedList>
                       <ListItem>
-                        Developed a browser-based driving game with jQuery
+                        Developed a pixel-art browser-based driving simulator
                       </ListItem>
                       <ListItem>
-                        Fully-functional game with multiple modes and challenges
+                        Responsive game with multiple modes and challenges
+                      </ListItem>
+                      <ListItem>
+                        Implemented movement and collision detection mechanisms
                       </ListItem>
                       <ListItem>
                         Global leaderboard updated through a MongoDB database
