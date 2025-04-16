@@ -2,7 +2,8 @@ name: Deploy React Portfolio
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -23,33 +24,33 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Step 4: Update package.json for correct asset paths
+      # Step 4: Update package.json with the correct homepage and repository
       - name: Set homepage and repository fields
         run: |
-          # Set the homepage so that the build expects your custom domain.
+          # Set the homepage so that built assets use your custom domain.
           npx json -I -f package.json -e 'this.homepage="https://amansingh.dev"'
-          # (Optional) Set the repository field; this may be used by gh-pages.
+          # Set the repository field (this is optional but can be useful).
           npx json -I -f package.json -e 'this.repository={ "type": "git", "url": "https://github.com/${{ github.repository }}.git" }'
 
       # Step 5: Build your React app
       - name: Build the app
         run: npm run build
 
-      # Step 6: Configure Git with a username and email (used by gh-pages)
+      # Step 6: Configure Git for gh-pages to use during deployment
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Step 7: Set the remote URL with an embedded token for authentication
-      - name: Set remote URL for authentication
+      # Step 7: Set remote URL with GH_TOKEN so the push is authenticated
+      - name: Set remote URL for authentication using GH_TOKEN
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
 
       # Step 8: Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run deploy
