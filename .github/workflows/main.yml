@@ -22,9 +22,11 @@ jobs:
 
       - name: Set homepage and repository fields
         run: |
+          # Set the homepage to your custom domain.
           npx json -I -f package.json -e 'this.homepage="https://amansingh.dev"'
-          npx json -I -f package.json -e 'this.repository={ "type": "git", "url": "https://$GH_TOKEN@github.com/${{ github.repository }}.git" }'
-
+          # Update the repository field with token-based URL for authentication.
+          npx json -I -f package.json -e "this.repository={ \"type\": \"git\", \"url\": \"https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git\" }"
+          
       - name: Build the app
         run: npm run build
 
@@ -35,5 +37,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy
