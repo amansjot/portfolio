@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Set homepage for GitHub Pages
+      - name: Set homepage and repository fields
         run: |
           npx json -I -f package.json -e 'this.homepage="https://amansingh.dev"'
           npx json -I -f package.json -e 'this.repository={ "type": "git", "url": "https://$GH_TOKEN@github.com/${{ github.repository }}.git" }'
@@ -28,10 +28,12 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          npm run deploy
+
+      - name: Deploy to GitHub Pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run deploy
