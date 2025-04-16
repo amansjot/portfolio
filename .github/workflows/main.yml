@@ -9,32 +9,46 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Check out your repository code
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # Step 4: Update package.json for correct asset paths
       - name: Set homepage and repository fields
         run: |
-          # Set the homepage to your custom domain.
+          # Set the homepage so that the build expects your custom domain.
           npx json -I -f package.json -e 'this.homepage="https://amansingh.dev"'
-          # Update the repository field with token-based URL for authentication.
-          npx json -I -f package.json -e "this.repository={ \"type\": \"git\", \"url\": \"https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git\" }"
-          
+          # (Optional) Set the repository field; this may be used by gh-pages.
+          npx json -I -f package.json -e 'this.repository={ "type": "git", "url": "https://github.com/${{ github.repository }}.git" }'
+
+      # Step 5: Build your React app
       - name: Build the app
         run: npm run build
 
+      # Step 6: Configure Git with a username and email (used by gh-pages)
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      # Step 7: Set the remote URL with an embedded token for authentication
+      - name: Set remote URL for authentication
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      # Step 8: Deploy to GitHub Pages using gh-pages
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
